@@ -1,0 +1,732 @@
+{
+  "tasks": [
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000001",
+      "name": "A New Barn",
+      "description": "I need some wood to build my barn.",
+      "skin": "farmer",
+      "contractorName": "Joe",
+      "profession": "Farmer",
+      "forced": false,
+      "minLevel": 0,
+      "maxLevel": 10,
+      "experience": 5,
+      "money": 0,
+      "items": [
+        {
+          "tag": "minecraft:logs",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:apple",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000002",
+      "name": "Driveway",
+      "description": "I need some cobblestone to pave my driveway.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 0,
+      "maxLevel": 10,
+      "experience": 5,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:cobblestone",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:iron_pickaxe",
+          "amount": 1,
+          "nbt": "{Damage:100}"
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000003",
+      "name": "An Upgrade",
+      "description": "I need an upgraded pickaxe to mine diamond ore.",
+      "skin": "miner",
+      "contractorName": "Carl",
+      "profession": "Miner",
+      "forced": false,
+      "minLevel": 1,
+      "maxLevel": 1,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:iron_pickaxe",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "ironchest:gold_chest",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000004",
+      "name": "A New Plantation",
+      "description": "I need seeds to start a new wheat plantation.",
+      "skin": "farmer",
+      "contractorName": "Joe",
+      "profession": "Farmer",
+      "forced": false,
+      "minLevel": 1,
+      "maxLevel": 1,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:seeds/wheat",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:iron_hoe",
+          "amount": 1,
+          "nbt": "{Damage:100}"
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000005",
+      "name": "Broken Chestplate",
+      "description": "My chestplate broke. I need a new one.",
+      "skin": "knight",
+      "contractorName": "Frank",
+      "profession": "Knight",
+      "forced": false,
+      "minLevel": 2,
+      "maxLevel": 2,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:iron_chestplate",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:iron_sword",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000006",
+      "name": "Lost in the Woods",
+      "description": "I can't find my way out of the woods. I need a compass to find a way out.",
+      "skin": "adventurer",
+      "contractorName": "Alina",
+      "profession": "Adventurer",
+      "forced": false,
+      "minLevel": 2,
+      "maxLevel": 2,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:compass",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "naturescompass:naturescompass",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000007",
+      "name": "Bakery Needs Help",
+      "description": "I need some wheat so I can bake some fresh bread.",
+      "skin": "baker",
+      "contractorName": "Keneth",
+      "profession": "Baker",
+      "forced": false,
+      "minLevel": 2,
+      "maxLevel": 2,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:crops/wheat",
+          "amount": 6
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:baked_potato",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000008",
+      "name": "Fisherman's Friend",
+      "description": "I need a new fishing rod, so I can keep fishing.",
+      "skin": "fisher",
+      "contractorName": "Francine",
+      "profession": "Fisher",
+      "forced": false,
+      "minLevel": 3,
+      "maxLevel": 3,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:fishing_rod",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:cooked_cod",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000009",
+      "name": "Dolphin Finder",
+      "description": "I was studying dolphins, but I struggle to find one. Could you take a picture of a dolphin with your camera? Make sure to keep the dolphin in the center.",
+      "skin": "zoologist",
+      "contractorName": "Paul",
+      "profession": "Zoologist",
+      "forced": true,
+      "minLevel": 3,
+      "maxLevel": 3,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "camera:image",
+          "amount": 1,
+          "nbt": "{image:{entities:[\"minecraft:dolphin\"]}}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "sophisticatedbackpacks:backpack",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000010",
+      "name": "Book Shelves",
+      "description": "I need some space to put my precious books.",
+      "skin": "librarian",
+      "contractorName": "Luther",
+      "profession": "Librarian",
+      "forced": false,
+      "minLevel": 3,
+      "maxLevel": 3,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "storagedrawers:drawers",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "storagedrawers:drawer_key",
+          "amount": 1
+        },
+        {
+          "item": "storagedrawers:quantify_key",
+          "amount": 1
+        },
+        {
+          "item": "storagedrawers:emerald_storage_upgrade",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000011",
+      "name": "Mining Fool",
+      "description": "I'm too lazy to mine right now, can you get me one of these new robots? I will reward you generously.",
+      "skin": "miner",
+      "contractorName": "Carl",
+      "profession": "Miner",
+      "forced": false,
+      "minLevel": 3,
+      "maxLevel": 3,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "computercraft:turtle_normal",
+          "amount": 1,
+          "nbt": "{RightUpgrade:\"minecraft:diamond_pickaxe\"}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "mekanism:metallurgic_infuser",
+          "amount": 1
+        },
+        {
+          "item": "mekanismgenerators:heat_generator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000012",
+      "name": "Renewable Energy",
+      "description": "I need some solar cells on my roof of my RV to save the planet.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 4,
+      "maxLevel": 4,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "solarflux:sp_1",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "botanypots:botany_pot",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000013",
+      "name": "A New Furnace",
+      "description": "My old furnace broke, because it overheated. I need a new one.",
+      "skin": "butcher",
+      "contractorName": "Bernd",
+      "profession": "Butcher",
+      "forced": false,
+      "minLevel": 4,
+      "maxLevel": 4,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "thermal:machine_furnace",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:cooked_beef",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000014",
+      "name": "I Need A Villager",
+      "description": "Don't ask why…",
+      "skin": "wierdo",
+      "contractorName": "Evets",
+      "profession": " ",
+      "forced": false,
+      "minLevel": 4,
+      "maxLevel": 4,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "easy_villagers:villager",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "easy_villagers:iron_farm",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000015",
+      "name": "Beekeeping",
+      "description": "My honey is a real seller, and I need more bees to fulfill the demand. Would you help me, so I can breed more bees?",
+      "skin": "beekeeper",
+      "contractorName": "Boris",
+      "profession": "Beekeeper",
+      "forced": true,
+      "minLevel": 4,
+      "maxLevel": 4,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "minecraft:beehives",
+          "amount": 4
+        },
+        {
+          "item": "resourcefulbees:centrifuge",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "resourcefulbees:t1_apiary",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000016",
+      "name": "Zombie Horde",
+      "description": "I need a vector plate to push my friends in my direction. They are too sleepy to walk.",
+      "skin": "zombie",
+      "contractorName": "Felix",
+      "profession": "Zombie",
+      "forced": false,
+      "minLevel": 4,
+      "maxLevel": 4,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "darkutils:vector_plate",
+          "amount": 6
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "sophisticatedbackpacks:feeding_upgrade",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000017",
+      "name": "Cherry Blossom",
+      "description": "I've never visited a Cherry Blossom Forest, would you please send me a photo of this biome? Make sure you are IN the biome when you take the picture. Hint: Use the Nature's Compass",
+      "skin": "adventurer",
+      "contractorName": "Alina",
+      "profession": "Adventurer",
+      "forced": false,
+      "minLevel": 5,
+      "maxLevel": 5,
+      "experience": 15,
+      "money": 0,
+      "items": [
+        {
+          "item": "camera:image",
+          "amount": 1,
+          "nbt": "{image:{biome:\"byg:cherry_blossom_forest\"}}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "sophisticatedbackpacks:diamond_backpack",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000018",
+      "name": "More Renewable Energy",
+      "description": "I need a serious upgrade to my solar cells to save the earth.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 5,
+      "maxLevel": 5,
+      "experience": 15,
+      "money": 0,
+      "items": [
+        {
+          "item": "solarflux:sp_3",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "botanypots:hopper_botany_pot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000019",
+      "name": "Stone Art",
+      "description": "I need a new Chisel so I can finish my sculpture of my cat.",
+      "skin": "artist",
+      "contractorName": "Annie",
+      "profession": "Artist",
+      "forced": false,
+      "minLevel": 5,
+      "maxLevel": 5,
+      "experience": 15,
+      "money": 0,
+      "items": [
+        {
+          "item": "chiselsandbits:chisel_diamond",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "enderstorage:ender_chest",
+          "amount": 2
+        },
+        {
+          "item": "minecraft:magenta_dye",
+          "amount": 2
+        },
+        {
+          "item": "minecraft:lime_dye",
+          "amount": 2
+        },
+        {
+          "item": "minecraft:red_dye",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000020",
+      "name": "Economic Lamps",
+      "description": "I need lamps which doesn't use any energy.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 5,
+      "maxLevel": 5,
+      "experience": 15,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:shroomlight",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "byg:ametrine_helmet",
+          "amount": 1
+        },
+        {
+          "item": "byg:ametrine_chestplate",
+          "amount": 1
+        },
+        {
+          "item": "byg:ametrine_leggings",
+          "amount": 1
+        },
+        {
+          "item": "byg:ametrine_boots",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000021",
+      "name": "TNT",
+      "description": "I need some TNT to blow up the nasty creepers in front of my house.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 6,
+      "maxLevel": 6,
+      "experience": 20,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:tnt",
+          "amount": 32
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:white_concrete",
+          "amount": 256
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000022",
+      "name": "Steel Production",
+      "description": "I need a Crusher to get some steel, I guess I'm just too lazy to craft it myself. Would you help me out?",
+      "skin": "miner",
+      "contractorName": "Carl",
+      "profession": "Miner",
+      "forced": false,
+      "minLevel": 6,
+      "maxLevel": 6,
+      "experience": 15,
+      "money": 0,
+      "items": [
+        {
+          "item": "mekanism:crusher",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "torchmaster:megatorch",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000023",
+      "name": "Wet Basement",
+      "description": "My basement is filled with water. I need a pump to clear it.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": true,
+      "minLevel": 6,
+      "maxLevel": 6,
+      "experience": 20,
+      "money": 0,
+      "items": [
+        {
+          "item": "mekanism:electric_pump",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "mekanism:electrolytic_seperator",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000024",
+      "name": "Crafting Help",
+      "description": "Hey there, I need help with crafting, can you give me a crafter so I can automate my crafting needs?",
+      "skin": "scientist",
+      "contractorName": "Larry",
+      "profession": "Laborant",
+      "forced": false,
+      "minLevel": 6,
+      "maxLevel": 6,
+      "experience": 15,
+      "money": 0,
+      "items": [
+        {
+          "item": "rftoolsutility:crafter1",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "mekanism:jetpack",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000025",
+      "name": "Honey Overflow",
+      "description": "People always want more honey and my bees just can't keep it up.",
+      "skin": "beekeeper",
+      "contractorName": "Boris",
+      "profession": "Beekeeper",
+      "forced": false,
+      "minLevel": 7,
+      "maxLevel": 7,
+      "experience": 20,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:honey_bottle",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "resourcefulbees:apiary_breeder",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000026",
+      "name": "Bamboozeled",
+      "description": "I need some economic mats to sleep on. My whole family would want them actually.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 7,
+      "maxLevel": 7,
+      "experience": 20,
+      "money": 0,
+      "items": [
+        {
+          "item": "quark:bamboo_mat",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:jukebox",
+          "amount": 1
+        },
+        {
+          "item": "minecraft:music_disc_pigstep",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}
