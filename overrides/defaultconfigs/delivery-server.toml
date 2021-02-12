@@ -1,0 +1,6 @@
+
+[computer]
+	#The level when computers should be usable
+	#Range: > 1
+	min_level = 10
+

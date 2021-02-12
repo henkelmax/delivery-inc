@@ -1,0 +1,11 @@
+{
+  "offers": [
+    {
+      "id": "01234567-0000-0000-0000-000000000001",
+      "price": 1000,
+      "levelRequirement": 15,
+      "item": "waystones:waystone",
+      "amount": 1
+    }
+  ]
+}
