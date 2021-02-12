@@ -52,7 +52,7 @@
 	quarryTileEntities = true
 	#Maximum offset of the shape when a shape card is used in the builder
 	#Range: > 0
-	maxBuilderOffset = 260
+	maxBuilderOffset = 512000
 	#How many ticks we wait before collecting again (with the builder 'collect items' mode)
 	#Range: > 0
 	collectTimer = 10

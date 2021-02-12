@@ -159,11 +159,26 @@ craftingTable.addShaped("mystical_fertilizer", <item:mysticalagriculture:mystica
     [<item:mysticalagriculture:prudentium_essence>, <item:mysticalagriculture:fertilized_essence>, <item:mysticalagriculture:prudentium_essence>]
 ]);
 
+craftingTable.removeByName("mysticalagriculture:inferium_growth_accelerator");
+mods.jei.JEI.hideItem(<item:mysticalagriculture:inferium_growth_accelerator>);
+
+craftingTable.removeByName("mysticalagriculture:prudentium_growth_accelerator");
+mods.jei.JEI.hideItem(<item:mysticalagriculture:prudentium_growth_accelerator>);
+
+craftingTable.removeByName("mysticalagriculture:tertium_growth_accelerator");
+mods.jei.JEI.hideItem(<item:mysticalagriculture:tertium_growth_accelerator>);
+
+craftingTable.removeByName("mysticalagriculture:imperium_growth_accelerator");
+mods.jei.JEI.hideItem(<item:mysticalagriculture:imperium_growth_accelerator>);
+
+craftingTable.removeByName("mysticalagriculture:supremium_growth_accelerator");
+mods.jei.JEI.hideItem(<item:mysticalagriculture:supremium_growth_accelerator>);
+
 # Quantum Storage
 
 craftingTable.removeByName("quantumstorage:hammer");
-craftingTable.removeByName("quantumstorage:hammer2");
 mods.jei.JEI.hideItem(<item:quantumstorage:hammer>);
+craftingTable.removeByName("quantumstorage:hammer2");
 craftingTable.removeByName("quantumstorage:quantum_bag_white");
 mods.jei.JEI.hideItem(<item:quantumstorage:quantum_bag_white>);
 craftingTable.removeByName("quantumstorage:quantum_bag_orange");
@@ -220,3 +235,42 @@ craftingTable.addShaped("tank", <item:quantumstorage:tank>, [
     [<item:pneumaticcraft:large_tank>, <item:pneumaticcraft:advanced_pcb>, <item:pneumaticcraft:large_tank>],
     [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_fluid_tank>, <item:mekanism:alloy_atomic>]
 ]);
+
+# Resourceful Bees
+
+craftingTable.removeByName("resourcefulbees:t1_apiary");
+craftingTable.addShaped("resourcefulbees:t1_apiary", <item:resourcefulbees:t1_apiary>, [
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:compressium:honey_1>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
+    [<item:compressium:honey_1>, <item:resourcefulbees:t4_beehive>, <item:compressium:honey_1>],
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:compressium:honey_1>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
+]);
+
+craftingTable.removeByName("resourcefulbees:t2_apiary");
+craftingTable.addShaped("resourcefulbees:t2_apiary", <item:resourcefulbees:t2_apiary>, [
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
+    [<item:minecraft:nether_star>, <item:resourcefulbees:t1_apiary>, <item:minecraft:nether_star>],
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
+]);
+
+craftingTable.removeByName("resourcefulbees:t3_apiary");
+craftingTable.addShaped("resourcefulbees:t3_apiary", <item:resourcefulbees:t3_apiary>, [
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
+    [<item:minecraft:nether_star>, <item:resourcefulbees:t2_apiary>, <item:minecraft:nether_star>],
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
+]);
+
+craftingTable.removeByName("resourcefulbees:t4_apiary");
+craftingTable.addShaped("resourcefulbees:t4_apiary", <item:resourcefulbees:t4_apiary>, [
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
+    [<item:minecraft:nether_star>, <item:resourcefulbees:t3_apiary>, <item:minecraft:nether_star>],
+    [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
+]);
+
+craftingTable.removeByName("minecraft:honeycomb_block");
+craftingTable.addShaped("minecraft:honeycomb_block", <item:minecraft:honeycomb_block>, [
+    [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>],
+    [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>],
+    [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>]
+]);
+
+craftingTable.addShapeless("minecraft:honeycomb", <item:minecraft:honeycomb>*9, [<item:minecraft:honeycomb_block>]);

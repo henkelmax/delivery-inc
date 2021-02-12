@@ -32,7 +32,7 @@
 	#If the image items should store additional data
 	#This isn't used by the mod itself
 	#Only enable this if you know what you are doing
-	enable = false
+	enable = true
 	#The amount of entities that should be stored
 	#Range: 1 ~ 128
 	max_entities = 16

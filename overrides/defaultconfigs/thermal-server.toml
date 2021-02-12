@@ -37,7 +37,7 @@
 	#Set to FALSE to prevent 'Thermal Series' Tin from generating.
 	Tin = false
 	#Set to FALSE to prevent 'Thermal Series' Lead from generating.
-	Lead = true
+	Lead = false
 	#Set to FALSE to prevent 'Thermal Series' Apatite from generating.
 	Apatite = false
 	#Set to FALSE to prevent 'Thermal Series' Niter from generating.
