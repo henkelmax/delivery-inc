@@ -50,6 +50,9 @@ mods.initialinventory.InvHandler.addStartingItem("manual", <item:patchouli:guide
 craftingTable.removeByName("mekanism:portable_teleporter");
 mods.jei.JEI.hideItem(<item:mekanism:portable_teleporter>);
 
+craftingTable.removeByName("mekanismadditions:walkie_talkie");
+mods.jei.JEI.hideItem(<item:mekanismadditions:walkie_talkie>);
+
 # Pipez
 
 craftingTable.addShaped("infinity_upgrade", <item:pipez:infinity_upgrade>, [
@@ -274,3 +277,48 @@ craftingTable.addShaped("minecraft:honeycomb_block", <item:minecraft:honeycomb_b
 ]);
 
 craftingTable.addShapeless("minecraft:honeycomb", <item:minecraft:honeycomb>*9, [<item:minecraft:honeycomb_block>]);
+
+# Easy Villagers
+
+craftingTable.removeByName("easy_villagers:iron_farm");
+
+# Quark
+
+mods.jei.JEI.hideItem(<item:quark:backpack>);
+mods.jei.JEI.hideItem(<item:quark:ravager_hide>);
+mods.jei.JEI.hideItem(<item:quark:bonded_ravager_hide>);
+mods.jei.JEI.hideItem(<item:quark:pipe>);
+mods.jei.JEI.hideItem(<item:quark:soul_compass>);
+mods.jei.JEI.hideItem(<item:quark:magnet>);
+
+craftingTable.addShaped("compactmachines:item_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:item"}}), [
+    [<item:pipez:item_pipe>, <item:mekanism:alloy_infused>, <item:pipez:item_pipe>],
+    [<item:mekanism:alloy_infused>, <item:rftoolsbase:dimensionalshard>, <item:mekanism:alloy_infused>],
+    [<item:pipez:item_pipe>, <item:mekanism:alloy_infused>, <item:pipez:item_pipe>]
+]);
+
+craftingTable.addShaped("compactmachines:redstone_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:redstone_in"}}), [
+    [<tag:items:forge:dusts/redstone>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/redstone>],
+    [<item:mekanism:alloy_infused>, <item:rftoolsbase:dimensionalshard>, <item:mekanism:alloy_infused>],
+    [<tag:items:forge:dusts/redstone>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/redstone>]
+]);
+
+# Dark Utilities
+
+craftingTable.addShaped("darkutils:vector_plate", <item:darkutils:vector_plate>*6, [
+    [<item:darkutils:plate>, <item:darkutils:plate>, <item:darkutils:plate>],
+    [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
+    [<item:darkutils:plate>, <item:darkutils:plate>, <item:darkutils:plate>]
+]);
+
+craftingTable.addShaped("darkutils:vector_plate_fast", <item:darkutils:vector_plate_fast>*6, [
+    [<item:darkutils:vector_plate>, <item:darkutils:vector_plate>, <item:darkutils:vector_plate>],
+    [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
+    [<item:darkutils:vector_plate>, <item:darkutils:vector_plate>, <item:darkutils:vector_plate>]
+]);
+
+craftingTable.addShaped("darkutils:vector_plate_extreme", <item:darkutils:vector_plate_extreme>*6, [
+    [<item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>],
+    [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
+    [<item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>]
+]);
