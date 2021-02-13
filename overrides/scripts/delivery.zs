@@ -386,3 +386,13 @@ craftingTable.addShaped("cobblefordays:tier_5", <item:cobblefordays:tier_5>, [
     [<item:cobblefordays:tier_4>, <item:cobblefordays:tier_4>, <item:cobblefordays:tier_4>],
     [<tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>]
 ]);
+
+# Mystical Agriculture
+
+craftingTable.removeByName("mysticalagriculture:infusion_altar");
+craftingTable.removeByName("mysticalagriculture:infusion_pedestal");
+craftingTable.addShaped("mysticalagriculture:infusion_pedestal", <item:mysticalagriculture:infusion_pedestal>, [
+    [<item:minecraft:air>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:air>],
+    [<item:mekanism:alloy_atomic>, <item:mysticalagriculture:tertium_gemstone>, <item:mekanism:alloy_atomic>],
+    [<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>]
+]);

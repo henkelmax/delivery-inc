@@ -15,13 +15,6 @@
       "amount": 1
     },
     {
-      "id": "01234567-0000-0000-0000-000000000003",
-      "price": 100,
-      "levelRequirement": 9,
-      "item": "waystones:waystone",
-      "amount": 1
-    },
-    {
       "id": "01234567-0000-0000-0000-000000000004",
       "price": 100,
       "levelRequirement": 9,
@@ -93,16 +86,23 @@
     },
     {
       "id": "01234567-0000-0000-0000-000000000012",
-      "price": 1000,
+      "price": 500,
       "levelRequirement": 18,
       "item": "chunkloaders:basic_chunk_loader",
       "amount": 1
     },
     {
       "id": "01234567-0000-0000-0000-000000000013",
-      "price": 2000,
+      "price": 1000,
       "levelRequirement": 19,
       "item": "mekanism:modification_station",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000014",
+      "price": 2500,
+      "levelRequirement": 20,
+      "item": "mysticalagriculture:infusion_altar",
       "amount": 1
     }
   ]
