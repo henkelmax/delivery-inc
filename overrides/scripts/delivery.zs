@@ -54,6 +54,7 @@ craftingTable.removeByName("mekanismadditions:walkie_talkie");
 mods.jei.JEI.hideItem(<item:mekanismadditions:walkie_talkie>);
 
 craftingTable.removeByName("mekanism:digital_miner");
+craftingTable.removeByName("mekanism:modification_station");
 
 # Pipez
 
@@ -352,3 +353,36 @@ craftingTable.removeByName("buildinggadgets:gadget_exchanging");
 craftingTable.removeByName("angelring:itemdiamondring");
 craftingTable.addShapeless("angelring:itemdiamondring", <item:angelring:itemdiamondring>*2, [<item:angelring:itemdiamondring>, <item:minecraft:elytra>]);
 
+# Chunkloaders
+
+craftingTable.removeByName("chunkloaders:basic_chunk_loader");
+
+# CobbleForDays
+
+craftingTable.removeByName("cobblefordays:tier_2");
+craftingTable.addShaped("cobblefordays:tier_2", <item:cobblefordays:tier_2>, [
+    [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>],
+    [<item:cobblefordays:tier_1>, <item:cobblefordays:tier_1>, <item:cobblefordays:tier_1>],
+    [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]
+]);
+
+craftingTable.removeByName("cobblefordays:tier_3");
+craftingTable.addShaped("cobblefordays:tier_3", <item:cobblefordays:tier_3>, [
+    [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>],
+    [<item:cobblefordays:tier_2>, <item:cobblefordays:tier_2>, <item:cobblefordays:tier_2>],
+    [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>]
+]);
+
+craftingTable.removeByName("cobblefordays:tier_4");
+craftingTable.addShaped("cobblefordays:tier_4", <item:cobblefordays:tier_4>, [
+    [<tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>],
+    [<item:cobblefordays:tier_3>, <item:cobblefordays:tier_3>, <item:cobblefordays:tier_3>],
+    [<tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>]
+]);
+
+craftingTable.removeByName("cobblefordays:tier_5");
+craftingTable.addShaped("cobblefordays:tier_5", <item:cobblefordays:tier_5>, [
+    [<tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>],
+    [<item:cobblefordays:tier_4>, <item:cobblefordays:tier_4>, <item:cobblefordays:tier_4>],
+    [<tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>]
+]);
