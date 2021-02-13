@@ -2,9 +2,93 @@
   "offers": [
     {
       "id": "01234567-0000-0000-0000-000000000001",
+      "price": 100,
+      "levelRequirement": 8,
+      "item": "refinedstorage:controller",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000002",
+      "price": 10000,
+      "levelRequirement": 8,
+      "item": "delivery:drone_pad",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000003",
+      "price": 100,
+      "levelRequirement": 9,
+      "item": "waystones:waystone",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000004",
+      "price": 100,
+      "levelRequirement": 9,
+      "item": "waystones:waystone",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000005",
+      "price": 2000,
+      "levelRequirement": 10,
+      "item": "mekanism:digital_miner",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000006",
+      "price": 200,
+      "levelRequirement": 11,
+      "item": "easy_villagers:iron_farm",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000007",
+      "price": 500,
+      "levelRequirement": 12,
+      "item": "easy_villagers:auto_trader",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000008",
+      "price": 1000,
+      "levelRequirement": 13,
+      "item": "compactmachines:personal_shrinking_device",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000009",
+      "price": 1000,
+      "levelRequirement": 14,
+      "item": "buildinggadgets:gadget_destruction",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000009",
       "price": 1000,
       "levelRequirement": 15,
-      "item": "waystones:waystone",
+      "item": "buildinggadgets:gadget_building",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000009",
+      "price": 500,
+      "levelRequirement": 15,
+      "item": "buildinggadgets:gadget_exchanging",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000010",
+      "price": 1000,
+      "levelRequirement": 16,
+      "item": "buildinggadgets:gadget_copy_paste",
+      "amount": 1
+    },
+    {
+      "id": "01234567-0000-0000-0000-000000000011",
+      "price": 2000,
+      "levelRequirement": 17,
+      "item": "angelring:itemdiamondring",
       "amount": 1
     }
   ]

@@ -53,6 +53,8 @@ mods.jei.JEI.hideItem(<item:mekanism:portable_teleporter>);
 craftingTable.removeByName("mekanismadditions:walkie_talkie");
 mods.jei.JEI.hideItem(<item:mekanismadditions:walkie_talkie>);
 
+craftingTable.removeByName("mekanism:digital_miner");
+
 # Pipez
 
 craftingTable.addShaped("infinity_upgrade", <item:pipez:infinity_upgrade>, [
@@ -129,6 +131,9 @@ mods.jei.JEI.hideItem(<item:industrialforegoing:mob_essence_tool>);
 mods.jei.JEI.hideCategory("pneumaticcraft:amadron_trade");
 mods.jei.JEI.hideItem(<item:pneumaticcraft:amadron_tablet>);
 craftingTable.removeByName("pneumaticcraft:amadron_tablet");
+
+craftingTable.addShapeless("pneumaticcraft:assembly_program_laser", <item:pneumaticcraft:assembly_program_laser>, [<item:mekanism:laser>, <item:pneumaticcraft:empty_pcb>]);
+craftingTable.addShapeless("pneumaticcraft:assembly_program_drill", <item:pneumaticcraft:assembly_program_drill>, [<item:pneumaticcraft:drill_bit_iron>, <item:pneumaticcraft:empty_pcb>]);
 
 # RF Tools
 
@@ -281,6 +286,7 @@ craftingTable.addShapeless("minecraft:honeycomb", <item:minecraft:honeycomb>*9, 
 # Easy Villagers
 
 craftingTable.removeByName("easy_villagers:iron_farm");
+craftingTable.removeByName("easy_villagers:auto_trader");
 
 # Quark
 
@@ -290,6 +296,8 @@ mods.jei.JEI.hideItem(<item:quark:bonded_ravager_hide>);
 mods.jei.JEI.hideItem(<item:quark:pipe>);
 mods.jei.JEI.hideItem(<item:quark:soul_compass>);
 mods.jei.JEI.hideItem(<item:quark:magnet>);
+
+# Compact Machines
 
 craftingTable.addShaped("compactmachines:item_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:item"}}), [
     [<item:pipez:item_pipe>, <item:mekanism:alloy_infused>, <item:pipez:item_pipe>],
@@ -303,22 +311,44 @@ craftingTable.addShaped("compactmachines:redstone_tunnel", <item:compactmachines
     [<tag:items:forge:dusts/redstone>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/redstone>]
 ]);
 
+craftingTable.removeByName("compactmachines:personal_shrinking_device");
+
 # Dark Utilities
 
-craftingTable.addShaped("darkutils:vector_plate", <item:darkutils:vector_plate>*6, [
-    [<item:darkutils:plate>, <item:darkutils:plate>, <item:darkutils:plate>],
+craftingTable.removeByName("darkutils:crafting/vector_plate");
+craftingTable.addShaped("darkutils:crafting/vector_plate", <item:darkutils:vector_plate>*6, [
+    [<item:darkutils:blank_plate>, <item:darkutils:blank_plate>, <item:darkutils:blank_plate>],
     [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
-    [<item:darkutils:plate>, <item:darkutils:plate>, <item:darkutils:plate>]
+    [<item:darkutils:blank_plate>, <item:darkutils:blank_plate>, <item:darkutils:blank_plate>]
 ]);
 
-craftingTable.addShaped("darkutils:vector_plate_fast", <item:darkutils:vector_plate_fast>*6, [
+craftingTable.removeByName("darkutils:crafting/vector_plate_fast");
+craftingTable.addShaped("darkutils:vector_plate_fast", <item:darkutils:vector_plate_fast>, [
     [<item:darkutils:vector_plate>, <item:darkutils:vector_plate>, <item:darkutils:vector_plate>],
     [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
     [<item:darkutils:vector_plate>, <item:darkutils:vector_plate>, <item:darkutils:vector_plate>]
 ]);
 
-craftingTable.addShaped("darkutils:vector_plate_extreme", <item:darkutils:vector_plate_extreme>*6, [
+craftingTable.removeByName("darkutils:crafting/vector_plate_extreme");
+craftingTable.addShaped("darkutils:vector_plate", <item:darkutils:vector_plate_extreme>, [
     [<item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>],
     [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
     [<item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>]
 ]);
+
+# Refined Storage
+
+craftingTable.removeByName("refinedstorage:controller");
+
+# Building Gadgets
+
+craftingTable.removeByName("buildinggadgets:gadget_destruction");
+craftingTable.removeByName("buildinggadgets:gadget_building");
+craftingTable.removeByName("buildinggadgets:gadget_copy_paste");
+craftingTable.removeByName("buildinggadgets:gadget_exchanging");
+
+# Angel Ring
+
+craftingTable.removeByName("angelring:itemdiamondring");
+craftingTable.addShapeless("angelring:itemdiamondring", <item:angelring:itemdiamondring>*2, [<item:angelring:itemdiamondring>, <item:minecraft:elytra>]);
+

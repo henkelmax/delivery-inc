@@ -9,7 +9,7 @@
       "profession": "Farmer",
       "forced": false,
       "minLevel": 0,
-      "maxLevel": 10,
+      "maxLevel": 0,
       "experience": 5,
       "money": 0,
       "items": [
@@ -35,7 +35,7 @@
       "profession": "Builder",
       "forced": false,
       "minLevel": 0,
-      "maxLevel": 10,
+      "maxLevel": 0,
       "experience": 5,
       "money": 0,
       "items": [
@@ -727,6 +727,664 @@
           "amount": 1
         }
       ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000027",
+      "name": "Tin Equipment",
+      "description": "I need some tin so i can upgrade my gear.",
+      "skin": "blacksmith",
+      "contractorName": "Will",
+      "profession": "Blacksmith",
+      "forced": false,
+      "minLevel": 3,
+      "maxLevel": 5,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:ores/tin",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "mekanism:energized_smelter",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000028",
+      "name": "Uranium",
+      "description": "I need some uranium for my \"research\".",
+      "skin": "physicist",
+      "contractorName": "Daniel",
+      "profession": "Nuclear Physicist",
+      "forced": false,
+      "minLevel": 3,
+      "maxLevel": 5,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:ores/uranium",
+          "amount": 4
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "mekanism:enrichment_chamber",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000029",
+      "name": "Copper Equipment",
+      "description": "I need some copper so i can upgrade my gear.",
+      "skin": "blacksmith",
+      "contractorName": "Will",
+      "profession": "Blacksmith",
+      "forced": false,
+      "minLevel": 3,
+      "maxLevel": 5,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:ores/copper",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "thermal:machine_crucible",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000030",
+      "name": "Magma Heat",
+      "description": "I need some Magma Bricks to keep my forge running longer.",
+      "skin": "blacksmith",
+      "contractorName": "Will",
+      "profession": "Blacksmith",
+      "forced": false,
+      "minLevel": 7,
+      "maxLevel": 7,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "quark:magma_bricks",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "camera:image_frame",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000031",
+      "name": "Kelp Spa",
+      "description": "I need Kelp for a face mask",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 7,
+      "maxLevel": 7,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:dried_kelp_block",
+          "amount": 4
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "quark:white_candle",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000032",
+      "name": "Finding Nemo",
+      "description": "I want a tropical Fish to put in my aquarium.",
+      "skin": "fisher",
+      "contractorName": "Francine",
+      "profession": "Fisher",
+      "forced": false,
+      "minLevel": 7,
+      "maxLevel": 7,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "minecraft:tropical_fish_bucket",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "thermal:machine_chiller",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000033",
+      "name": "Teleporting Target",
+      "description": "I always wanted to see one of those teleporting creatures. Would you kindly take a picture for me?",
+      "skin": "zoologist",
+      "contractorName": "Paul",
+      "profession": "Zoologist",
+      "forced": false,
+      "minLevel": 7,
+      "maxLevel": 7,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "item": "camera:image",
+          "amount": 1,
+          "nbt": "{image:{entities:[\"minecraft:enderman\"]}}"
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "ironchest:diamond_chest",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000034",
+      "name": "Ransom Note",
+      "description": "Welcome to the age of computers. This should be your first task here, because I hacked your e-mail provider. Haha. Send me your money.",
+      "skin": "hacker",
+      "contractorName": "Harry",
+      "profession": "Hacker",
+      "forced": true,
+      "minLevel": 8,
+      "maxLevel": 8,
+      "experience": 10,
+      "money": 0,
+      "items": [
+        {
+          "tag": "forge:coins/gold",
+          "amount": 16
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "delivery:drone_pad",
+          "amount": 1
+        },
+        {
+          "item": "minecraft:paper",
+          "amount": 1,
+          "nbt": "{display:{Name:\"{\\\"text\\\":\\\"LOL JK\\\"}\"}}"
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000035",
+      "name": "A New House",
+      "description": "I need a huge amount of logs to build my new house.",
+      "skin": "farmer",
+      "contractorName": "Joe",
+      "profession": "Farmer",
+      "forced": false,
+      "minLevel": 8,
+      "maxLevel": 8,
+      "experience": 10,
+      "money": 100,
+      "items": [
+        {
+          "tag": "minecraft:logs",
+          "amount": 256
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000036",
+      "name": "Energy Reserve",
+      "description": "I want to build up an energy storage, if the world ends. Please make sure it's from renewable sources.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 8,
+      "maxLevel": 8,
+      "experience": 25,
+      "money": 200,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "delivery:liquid_energy",
+          "amount": 64000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000037",
+      "name": "Liquid Honey",
+      "description": "I need some honey reserves for the winter.",
+      "skin": "beekeeper",
+      "contractorName": "Boris",
+      "profession": "Beekeeper",
+      "forced": false,
+      "minLevel": 8,
+      "maxLevel": 8,
+      "experience": 25,
+      "money": 200,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "resourcefulbees:honey",
+          "amount": 4000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000038",
+      "name": "Even More Renewable Energy",
+      "description": "I need another upgrade to my solar cells to power the neighbors house too.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 8,
+      "maxLevel": 8,
+      "experience": 25,
+      "money": 200,
+      "items": [
+        {
+          "item": "solarflux:sp_4",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000039",
+      "name": "Sugar Reserve",
+      "description": "I need a lot of sugar to survive the winter.",
+      "skin": "baker",
+      "contractorName": "Keneth",
+      "profession": "Baker",
+      "forced": false,
+      "minLevel": 9,
+      "maxLevel": 9,
+      "experience": 50,
+      "money": 400,
+      "items": [
+        {
+          "item": "minecraft:sugar",
+          "amount": 1024
+        }
+      ],
+      "fluids": [],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "amount": 256
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000040",
+      "name": "New Gloves",
+      "description": "I need some latex to create new gloves.",
+      "skin": "scientist",
+      "contractorName": "Larry",
+      "profession": "Laborant",
+      "forced": false,
+      "minLevel": 9,
+      "maxLevel": 9,
+      "experience": 50,
+      "money": 400,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "industrialforegoing:latex",
+          "amount": 2000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000041",
+      "name": "Biofuel",
+      "description": "I just bought a new generator and don't want to fuel it with normal gas. Can you produce some biofuel for me?",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": true,
+      "minLevel": 10,
+      "maxLevel": 10,
+      "experience": 60,
+      "money": 400,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "industrialforegoing:biofuel",
+          "amount": 8000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "mekansim:quantum_entangloporter",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000042",
+      "name": "Storage Needs",
+      "description": "I need more storage to store all my \"scientific\" data.",
+      "skin": "scientist",
+      "contractorName": "Larry",
+      "profession": "Laborant",
+      "forced": false,
+      "minLevel": 10,
+      "maxLevel": 10,
+      "experience": 60,
+      "money": 400,
+      "items": [
+        {
+          "item": "refinedstorage:16k_storage_disk",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000043",
+      "name": "Village Research",
+      "description": "I'm conducting a study about the natural behavior of villagers and golems. Would you please take a picture of an iron golem next to a villager?",
+      "skin": "zoologist",
+      "contractorName": "Paul",
+      "profession": "Zoologist",
+      "forced": false,
+      "minLevel": 11,
+      "maxLevel": 11,
+      "experience": 60,
+      "money": 400,
+      "items": [
+        {
+          "item": "camera:image",
+          "amount": 1,
+          "nbt": "{image:{entities:[\"minecraft:villager\",\"minecraft:iron_golem\"]}}"
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000044",
+      "name": "Castle of Glass",
+      "description": "I need some fancy glass to build my new house.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 11,
+      "maxLevel": 11,
+      "experience": 60,
+      "money": 400,
+      "items": [
+        {
+          "item": "quark:framed_glass",
+          "amount": 256
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000045",
+      "name": "Better Iron",
+      "description": "I need better iron to craft better armor. Please help me out again.",
+      "skin": "blacksmith",
+      "contractorName": "Will",
+      "profession": "Blacksmith",
+      "forced": false,
+      "minLevel": 12,
+      "maxLevel": 12,
+      "experience": 60,
+      "money": 400,
+      "items": [
+        {
+          "item": "pneumaticcraft:ingot_iron_compressed",
+          "amount": 32
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000046",
+      "name": "Withering",
+      "description": "I heard of a crazy dark creature. I once saw it in my nightmares, can you take a picture of a wither? Make sure you get a wither rose from it, it could come in handy.",
+      "skin": "adventurer",
+      "contractorName": "Alina",
+      "profession": "Adventurer",
+      "forced": true,
+      "minLevel": 12,
+      "maxLevel": 12,
+      "experience": 100,
+      "money": 500,
+      "items": [
+        {
+          "item": "camera:image",
+          "amount": 1,
+          "nbt": "{image:{entities:[\"minecraft:wither\"]}}"
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000047",
+      "name": "Zombie Horde",
+      "description": "I need a vector plate to push more of my friends in my direction. The old ones are far too slow.",
+      "skin": "zombie",
+      "contractorName": "Felix",
+      "profession": "Zombie",
+      "forced": false,
+      "minLevel": 13,
+      "maxLevel": 13,
+      "experience": 60,
+      "money": 400,
+      "items": [
+        {
+          "item": "darkutils:vector_plate_fast",
+          "amount": 12
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000048",
+      "name": "PCB-Etching",
+      "description": "I need some etching acid to etch some PCBs.",
+      "skin": "scientist",
+      "contractorName": "Larry",
+      "profession": "Laborant",
+      "forced": false,
+      "minLevel": 13,
+      "maxLevel": 13,
+      "experience": 60,
+      "money": 400,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "pneumaticcraft:etching_acid",
+          "amount": 2000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000049",
+      "name": "Advanced Pressure",
+      "description": "I need to install new pressure tubes in my workshop.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 14,
+      "maxLevel": 14,
+      "experience": 60,
+      "money": 400,
+      "items": [
+        {
+          "item": "pneumaticcraft:advanced_pressure_tube",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000050",
+      "name": "Are Dragons Real?",
+      "description": "I never saw a real dragon, please take a picture when you see one.",
+      "skin": "knight",
+      "contractorName": "Frank",
+      "profession": "Knight",
+      "forced": true,
+      "minLevel": 14,
+      "maxLevel": 14,
+      "experience": 100,
+      "money": 500,
+      "items": [
+        {
+          "item": "camera:image",
+          "amount": 1,
+          "nbt": "{image:{entities:[\"minecraft:ender_dragon\"]}}"
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000051",
+      "name": "Cool Shells",
+      "description": "I heard of those cool shells that are used to create portable chests. I want some of them, please.",
+      "skin": "adventurer",
+      "contractorName": "Alina",
+      "profession": "Adventurer",
+      "forced": false,
+      "minLevel": 15,
+      "maxLevel": 15,
+      "experience": 70,
+      "money": 400,
+      "items": [
+        {
+          "item": "minecraft:shulker_shell",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000052",
+      "name": "Steel Beams",
+      "description": "I need a lot of steel to make some steel beams, so I can build a house.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 15,
+      "maxLevel": 15,
+      "experience": 70,
+      "money": 400,
+      "items": [
+        {
+          "tag": "forge:ingots/steel",
+          "amount": 256
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000053",
+      "name": "Do Not Eat",
+      "description": "I need some yellow cake uranium to conduct some research.",
+      "skin": "physicist",
+      "contractorName": "Daniel",
+      "profession": "Nuclear Physicist",
+      "forced": false,
+      "minLevel": 16,
+      "maxLevel": 16,
+      "experience": 80,
+      "money": 400,
+      "items": [
+        {
+          "tag": "forge:yellow_cake_uranium",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000054",
+      "name": "Do Not Open",
+      "description": "(§$Q§(/$&§$§(%)$=%$%&§&$(!\"$§%($§%&$§$=)§\"$ Sent from my mPhone",
+      "skin": "wierdo",
+      "contractorName": "Evets",
+      "profession": " ",
+      "forced": false,
+      "minLevel": 16,
+      "maxLevel": 16,
+      "experience": 80,
+      "money": 400,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "mekanism:hydrofluoric_acid",
+          "amount": 2000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000055",
+      "forced": false,
+      "minLevel": 17,
+      "maxLevel": 17,
+      "experience": 80,
+      "money": 400,
+      "items": [],
+      "fluids": [],
+      "rewards": []
     }
   ]
 }
