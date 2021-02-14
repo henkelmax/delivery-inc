@@ -157,6 +157,8 @@ craftingTable.removeByName("rftoolsutility:teleport_probe");
 mods.jei.JEI.hideItem(<item:rftoolsutility:simple_dialer>);
 craftingTable.removeByName("rftoolsutility:simple_dialer");
 
+craftingTable.removeByName("rftoolsbuilder:builder");
+
 # Mystical Agriculture
 
 craftingTable.removeByName("mysticalagriculture:mystical_fertilizer_better");
@@ -314,6 +316,41 @@ craftingTable.addShaped("compactmachines:redstone_tunnel", <item:compactmachines
 
 craftingTable.removeByName("compactmachines:personal_shrinking_device");
 
+craftingTable.removeByName("compactmachines:machine_small");
+craftingTable.addShaped("compactmachines:machine_small", <item:compactmachines:machine_small>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:machine_tiny>, <tag:items:forge:storage_blocks/iron>, <item:compactmachines:machine_tiny>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.removeByName("compactmachines:machine_normal");
+craftingTable.addShaped("compactmachines:machine_normal", <item:compactmachines:machine_normal>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:machine_small>, <tag:items:forge:storage_blocks/gold>, <item:compactmachines:machine_small>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.removeByName("compactmachines:machine_large");
+craftingTable.addShaped("compactmachines:machine_large", <item:compactmachines:machine_large>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:machine_normal>, <item:compressium:obsidian_1>, <item:compactmachines:machine_normal>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.removeByName("compactmachines:machine_giant");
+craftingTable.addShaped("compactmachines:machine_giant", <item:compactmachines:machine_giant>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:machine_large>, <tag:items:forge:storage_blocks/diamond>, <item:compactmachines:machine_large>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.removeByName("compactmachines:machine_maximum");
+craftingTable.addShaped("compactmachines:machine_maximum", <item:compactmachines:machine_maximum>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:machine_giant>, <tag:items:forge:storage_blocks/emerald>, <item:compactmachines:machine_giant>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
 # Dark Utilities
 
 craftingTable.removeByName("darkutils:crafting/vector_plate");
@@ -340,6 +377,18 @@ craftingTable.addShaped("darkutils:vector_plate", <item:darkutils:vector_plate_e
 # Refined Storage
 
 craftingTable.removeByName("refinedstorage:controller");
+
+craftingTable.removeByName("extradisks:disk/shaped/infinite_fluid_storage_disk");
+craftingTable.removeByName("extradisks:disk/shaped/infinite_storage_disk");
+
+craftingTable.removeByName("extradisks:disk/shapeless/infinite_fluid_storage_disk");
+craftingTable.removeByName("extradisks:disk/shapeless/infinite_storage_disk");
+
+craftingTable.removeByName("extradisks:part/infinite_storage_part");
+craftingTable.removeByName("extradisks:part/infinite_fluid_storage_part");
+
+craftingTable.removeByName("extradisks:blocks/infinite_storage_block");
+craftingTable.removeByName("extradisks:blocks/infinite_fluid_storage_block");
 
 # Building Gadgets
 
@@ -396,3 +445,14 @@ craftingTable.addShaped("mysticalagriculture:infusion_pedestal", <item:mysticala
     [<item:mekanism:alloy_atomic>, <item:mysticalagriculture:tertium_gemstone>, <item:mekanism:alloy_atomic>],
     [<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>]
 ]);
+
+# Compressium
+furnace.removeByName("compressium:cobble_cook_1");
+furnace.removeByName("compressium:cobble_cook_2");
+furnace.removeByName("compressium:cobble_cook_3");
+furnace.removeByName("compressium:cobble_cook_4");
+furnace.removeByName("compressium:cobble_cook_5");
+furnace.removeByName("compressium:cobble_cook_6");
+furnace.removeByName("compressium:cobble_cook_7");
+furnace.removeByName("compressium:cobble_cook_8");
+furnace.removeByName("compressium:cobble_cook_9");
