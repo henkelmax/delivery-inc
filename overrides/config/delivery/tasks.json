@@ -465,6 +465,10 @@
       "fluids": [],
       "rewards": [
         {
+          "item": "sleeping_bags:red_sleeping_bag",
+          "amount": 1
+        },
+        {
           "item": "sophisticatedbackpacks:diamond_backpack",
           "amount": 1
         }
@@ -1100,9 +1104,7 @@
       "profession": "Laborant",
       "forced": false,
       "minLevel": 8,
-      "dependencies": [
-        "edb577e0-608e-11eb-ae93-000000000062"
-      ],
+      "dependencies": [],
       "experience": 50,
       "money": 400,
       "items": [],
@@ -1123,7 +1125,9 @@
       "profession": "Hippie",
       "forced": true,
       "minLevel": 9,
-      "dependencies": [],
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000016"
+      ],
       "experience": 60,
       "money": 400,
       "items": [],
@@ -1599,7 +1603,7 @@
         "edb577e0-608e-11eb-ae93-000000000057"
       ],
       "experience": 80,
-      "money": 400,
+      "money": 600,
       "items": [
         {
           "item": "compressium:stone_4",
@@ -1668,11 +1672,664 @@
         "edb577e0-608e-11eb-ae93-000000000056"
       ],
       "experience": 80,
-      "money": 400,
+      "money": 600,
       "items": [
         {
           "item": "mysticalagriculture:tertium_farmland",
           "amount": 5
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000064",
+      "name": "More Space",
+      "description": "I need more space around my office.",
+      "skin": "manager",
+      "contractorName": "Marc",
+      "profession": "Manager",
+      "forced": false,
+      "minLevel": 18,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000065"
+      ],
+      "experience": 80,
+      "money": 650,
+      "items": [
+        {
+          "item": "compactmachines:machine_maximum",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000065",
+      "name": "Workflow Upgrade",
+      "description": "Our workflow needs to get more efficient.",
+      "skin": "manager",
+      "contractorName": "Marc",
+      "profession": "Manager",
+      "forced": false,
+      "minLevel": 18,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000041"
+      ],
+      "experience": 80,
+      "money": 650,
+      "items": [
+        {
+          "item": "industrialforegoing:speed_addon_2",
+          "amount": 4
+        },
+        {
+          "item": "industrialforegoing:efficiency_addon_2",
+          "amount": 4
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000066",
+      "name": "Honeycomb",
+      "description": "I can't keep up with the demand. I have to outsource my production.",
+      "skin": "beekeeper",
+      "contractorName": "Boris",
+      "profession": "Beekeeper",
+      "forced": false,
+      "minLevel": 18,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000037"
+      ],
+      "experience": 80,
+      "money": 650,
+      "items": [
+        {
+          "tag": "resourcefulbees:resourceful_honeycomb_block",
+          "amount": 64
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000067",
+      "name": "Fast Travel",
+      "description": "My mother lives far away and I need a quick way to visit her.",
+      "skin": "adventurer",
+      "contractorName": "Alina",
+      "profession": "Adventurer",
+      "forced": false,
+      "minLevel": 18,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000051"
+      ],
+      "experience": 80,
+      "money": 650,
+      "items": [
+        {
+          "tag": "forge:ender_pearls",
+          "amount": 96
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000068",
+      "name": "Polonium",
+      "description": "My experiments with plutonium worked, but now I need some polonium pellets to continue my work.",
+      "skin": "physicist",
+      "contractorName": "Daniel",
+      "profession": "Nuclear Physicist",
+      "forced": false,
+      "minLevel": 19,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000055"
+      ],
+      "experience": 100,
+      "money": 1000,
+      "items": [
+        {
+          "tag": "forge:pellets/polonium",
+          "amount": 8
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000069",
+      "name": "D-T Fuel",
+      "description": "I made a reality-breaking discovery! If this works I can generate near infinite power! Help me get some fuel.",
+      "skin": "physicist",
+      "contractorName": "Daniel",
+      "profession": "Nuclear Physicist",
+      "forced": false,
+      "minLevel": 19,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000068"
+      ],
+      "experience": 100,
+      "money": 1000,
+      "items": [
+        {
+          "item": "mekanismgenerators:hohlraum",
+          "amount": 1
+        }
+      ],
+      "fluids": [
+        {
+          "fluid": "mekanismgenerators:fusion_fuel",
+          "amount": 1000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000070",
+      "name": "Business Time",
+      "description": "Hello, this is the beginning of a great business relationship. Prepare for expansion, my friend. Let's start with some PCBs.",
+      "skin": "investor",
+      "contractorName": "Igor",
+      "profession": "Investor",
+      "forced": false,
+      "minLevel": 20,
+      "dependencies": [],
+      "experience": 110,
+      "money": 750,
+      "items": [
+        {
+          "item": "pneumaticcraft:advanced_pcb",
+          "amount": 256
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000071",
+      "name": "More Smooth Compressium",
+      "description": "I need even more material to work. Make sure to compress it, so it's easier to transport.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 20,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000057"
+      ],
+      "experience": 110,
+      "money": 750,
+      "items": [
+        {
+          "item": "compressium:stone_6",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000072",
+      "name": "Ultimate Renewable Energy",
+      "description": "My world saving operation is nearly complete. These cells should power the whole city.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 21,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000059",
+        "edb577e0-608e-11eb-ae93-000000000051"
+      ],
+      "experience": 120,
+      "money": 1000,
+      "items": [
+        {
+          "item": "solarflux:sp_8",
+          "amount": 2
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000073",
+      "name": "City of Glass",
+      "description": "I need a huge amount of glass to build a futuristic city.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 21,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000044"
+      ],
+      "experience": 120,
+      "money": 1000,
+      "items": [
+        {
+          "tag": "forge:glass",
+          "amount": 13824
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000074",
+      "name": "Ultimate Energy Reserve",
+      "description": "I want to expand my energy storage, if the world ends. Please make sure it's from renewable sources.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 21,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000036"
+      ],
+      "experience": 120,
+      "money": 1000,
+      "items": [],
+      "fluids": [
+        {
+          "fluid": "delivery:liquid_energy",
+          "amount": 1024000
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000075",
+      "name": "Witherproof Castle",
+      "description": "I need a new castle, becuase a wither destroyed my old one. This time I want to see-through my walls.",
+      "skin": "knight",
+      "contractorName": "Frank",
+      "profession": "Knight",
+      "forced": false,
+      "minLevel": 22,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000063"
+      ],
+      "experience": 130,
+      "money": 1000,
+      "items": [
+        {
+          "item": "mysticalagriculture:witherproof_glass",
+          "amount": 256
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000076",
+      "name": "Welcome to the Club",
+      "description": "I want to invest in a local club, and they want some RGB Lights to go with the flow.",
+      "skin": "investor",
+      "contractorName": "Igor",
+      "profession": "Investor",
+      "forced": false,
+      "minLevel": 22,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000070"
+      ],
+      "experience": 130,
+      "money": 750,
+      "items": [
+        {
+          "item": "resourcefulbees:rgbee_honeycomb_block",
+          "amount": 512
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000077",
+      "name": "Dimensional Shards",
+      "description": "I heard of dimenionsional shards. I want to experiment with them.",
+      "skin": "scientist",
+      "contractorName": "Larry",
+      "profession": "Laborant",
+      "forced": false,
+      "minLevel": 22,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000062"
+      ],
+      "experience": 130,
+      "money": 750,
+      "items": [
+        {
+          "item": "rftoolsbase:dimensionalshard",
+          "amount": 256
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000078",
+      "name": "A New Country",
+      "description": "I need wood to supply the whole country.",
+      "skin": "farmer",
+      "contractorName": "Joe",
+      "profession": "Farmer",
+      "forced": false,
+      "minLevel": 23,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000035"
+      ],
+      "experience": 135,
+      "money": 750,
+      "items": [
+        {
+          "tag": "minecraft:logs",
+          "amount": 27648
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000079",
+      "name": "Better Food",
+      "description": "I need some of these insane apples. They could really safe my life on difficult adventures.",
+      "skin": "adventurer",
+      "contractorName": "Alina",
+      "profession": "Adventurer",
+      "forced": false,
+      "minLevel": 24,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000067"
+      ],
+      "experience": 135,
+      "money": 750,
+      "items": [
+        {
+          "item": "mysticalagradditions:insanium_apple",
+          "amount": 4
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000080",
+      "name": "Zombie Invasion",
+      "description": "I need extreme vector plates to push all of my friends in my direction. The old ones are far too slow.",
+      "skin": "zombie",
+      "contractorName": "Felix",
+      "profession": "Zombie",
+      "forced": false,
+      "minLevel": 24,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000047"
+      ],
+      "experience": 135,
+      "money": 750,
+      "items": [
+        {
+          "item": "darkutils:vector_plate_extreme",
+          "amount": 64
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000081",
+      "name": "Ultimate Mining",
+      "description": "I need to upgrade the efficiency of my mining.",
+      "skin": "miner",
+      "contractorName": "Carl",
+      "profession": "Miner",
+      "forced": false,
+      "minLevel": 26,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000022"
+      ],
+      "experience": 140,
+      "money": 750,
+      "items": [
+        {
+          "item": "mekanism:ultimate_smelting_factory",
+          "amount": 10
+        },
+        {
+          "item": "mekanism:ultimate_enriching_factory",
+          "amount": 10
+        },
+        {
+          "item": "mekanism:ultimate_crushing_factory",
+          "amount": 10
+        },
+        {
+          "item": "mekanism:ultimate_injecting_factory",
+          "amount": 10
+        },
+        {
+          "item": "mekanism:ultimate_purifying_factory",
+          "amount": 10
+        },
+        {
+          "item": "mekanism:electrolytic_seperator",
+          "amount": 16
+        },
+        {
+          "item": "rftoolsbuilder:shape_card_quarry_clear",
+          "amount": 5
+        },
+        {
+          "item": "mekanism:upgrade_speed",
+          "amount": 528
+        },
+        {
+          "item": "mekanism:upgrade_energy",
+          "amount": 528
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000082",
+      "name": "Special Request",
+      "description": "We have a special customer request: A guy in the End wants to build a fortress out of enderium blocks.",
+      "skin": "investor",
+      "contractorName": "Igor",
+      "profession": "Investor",
+      "forced": false,
+      "minLevel": 26,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000067"
+      ],
+      "experience": 140,
+      "money": 750,
+      "items": [
+        {
+          "item": "thermal:enderium_block",
+          "amount": 192
+        },
+        {
+          "item": "thermal:enderium_glass",
+          "amount": 128
+        },
+        {
+          "item": "jaopca:storage_blocks.ender_pearl",
+          "amount": 128
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000083",
+      "name": "More Compressium",
+      "description": "I need a lot of material to work. Make sure to compress it, so it's easier to transport.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 26,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000071"
+      ],
+      "experience": 140,
+      "money": 750,
+      "items": [
+        {
+          "item": "compressium:cobblestone_7",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000084",
+      "name": "Best Armor",
+      "description": "I need the best armor available right now.",
+      "skin": "knight",
+      "contractorName": "Frank",
+      "profession": "Knight",
+      "forced": false,
+      "minLevel": 27,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000079",
+        "edb577e0-608e-11eb-ae93-000000000075"
+      ],
+      "experience": 140,
+      "money": 1000,
+      "items": [
+        {
+          "item": "mysticalagriculture:supremium_helmet",
+          "amount": 1
+        },
+        {
+          "item": "mysticalagriculture:supremium_chestplate",
+          "amount": 1
+        },
+        {
+          "item": "mysticalagriculture:supremium_leggins",
+          "amount": 1
+        },
+        {
+          "item": "mysticalagriculture:supremium_boots",
+          "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000085",
+      "name": "Even More Space",
+      "description": "I need much more space around my office.",
+      "skin": "manager",
+      "contractorName": "Marc",
+      "profession": "Manager",
+      "forced": false,
+      "minLevel": 27,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000064"
+      ],
+      "experience": 140,
+      "money": 1000,
+      "items": [
+        {
+          "item": "compactmachines:machine_maximum",
+          "amount": 32
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000086",
+      "name": "Nearly Unlimited Space",
+      "description": "I need space on my computer to store all of my \"important\" data.",
+      "skin": "scientist",
+      "contractorName": "Larry",
+      "profession": "Laborant",
+      "forced": false,
+      "minLevel": 27,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000042"
+      ],
+      "experience": 140,
+      "money": 1000,
+      "items": [
+        {
+          "item": "extradisks:1048576k_storage_disk",
+          "amount": 4
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000087",
+      "name": "Elevator Action",
+      "description": "I need a working elevator in my house.",
+      "skin": "builder",
+      "contractorName": "Bob",
+      "profession": "Builder",
+      "forced": false,
+      "minLevel": 15,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000049"
+      ],
+      "experience": 65,
+      "money": 400,
+      "items": [
+        {
+          "item": "pneumaticcraft:elevator_base",
+          "amount": 1
+        },
+        {
+          "item": "pneumaticcraft:elevator_frame",
+          "amount": 16
+        },
+        {
+          "item": "pneumaticcraft:elevator_caller",
+          "amount": 2
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000088",
+      "name": "Endgame",
+      "description": "A customer wants to buy our delivery inc. ",
+      "skin": "investor",
+      "contractorName": "Igor",
+      "profession": "Investor",
+      "forced": false,
+      "minLevel": 31,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000086",
+        "edb577e0-608e-11eb-ae93-000000000083"
+      ],
+      "experience": 250,
+      "money": 5000,
+      "items": [
+        {
+          "item": "compressium:cobblestone_9",
+          "amount": 1
+        },
+        {
+          "item": "compressium:endstone_9",
+          "amount": 1
+        },
+        {
+          "item": "compressium:netherrack_9",
+          "amount": 1
         }
       ],
       "fluids": [],
