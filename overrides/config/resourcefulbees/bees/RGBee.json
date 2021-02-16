@@ -11,14 +11,12 @@
   "MutationData": {},
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:red_dye",
-    "secondaryOutput": "minecraft:green_dye",
-    "bottleOutput": "resourcefulbees:rainbow_honey_bottle",
-    "bottleOutputWeight": 0.02
+    "mainOutput": "mysticalagriculture:dye_essence",
+    "mainOutputCount": 2
   },
   "SpawnData": {
     "canSpawnInWorld": true,
-    "biomeWhitelist": "TAG:OVerWorld",
+    "biomeWhitelist": "TAG:OVERWORLD",
     "biomeBlacklist": "tag:ocean"
   },
   "BreedData": {

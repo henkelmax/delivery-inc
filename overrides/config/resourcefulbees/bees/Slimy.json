@@ -15,6 +15,11 @@
     "mutationType": "BLOCK_TO_BLOCK",
     "mutationCount": 15
   },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:slime_ball",
+    "mainOutputWeight": 0.5
+  },
   "BreedData": {
     "isBreedable": true,
     "parent1": "rgbee",

@@ -17,7 +17,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:redstone",
-    "mainOutputCount": 4
+    "mainOutputCount": 2
   },
   "SpawnData": {
     "canSpawnInWorld": true,

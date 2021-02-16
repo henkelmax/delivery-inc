@@ -15,7 +15,8 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:emerald"
+    "mainOutput": "minecraft:emerald",
+    "mainOutputWeight": 0.25
   },
   "SpawnData": {
     "canSpawnInWorld": true,

@@ -16,7 +16,8 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:gold_ingot"
+    "mainOutput": "minecraft:gold_ingot",
+    "mainOutputWeight": 0.25
   },
   "SpawnData": {
     "canSpawnInWorld": true,

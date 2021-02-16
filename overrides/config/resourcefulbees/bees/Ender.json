@@ -18,7 +18,9 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:ender_pearl",
-    "bottleOutput" : "minecraft:dragon_breath"
+    "bottleOutput" : "minecraft:dragon_breath",
+    "mainOutputWeight": 0.25,
+    "bottleOutputWeight":0.125
   },
   "SpawnData": {
     "canSpawnInWorld": true,

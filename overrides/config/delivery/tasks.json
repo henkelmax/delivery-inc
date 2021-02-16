@@ -363,7 +363,7 @@
       "id": "edb577e0-608e-11eb-ae93-000000000014",
       "name": "I Need A Villager",
       "description": "Don't ask why…",
-      "skin": "wierdo",
+      "skin": "weirdo",
       "contractorName": "Evets",
       "profession": " ",
       "forced": false,
@@ -409,6 +409,15 @@
       ],
       "fluids": [],
       "rewards": [
+        {
+          "item": "resourcefulbees:apiary_storage",
+          "amount": 1
+        },
+        {
+          "item": "patchouli:guide_book",
+          "amount": 1,
+          "nbt": "{\\\"patchouli:book\\\":\\\"resourcefulbees:fifty_shades_of_bees\\\"}"
+        },
         {
           "item": "resourcefulbees:t1_apiary",
           "amount": 1
@@ -490,7 +499,7 @@
       "money": 0,
       "items": [
         {
-          "item": "solarflux:sp_3",
+          "item": "solarflux:sp_2",
           "amount": 8
         }
       ],
@@ -598,7 +607,7 @@
       "items": [
         {
           "item": "minecraft:tnt",
-          "amount": 32
+          "amount": 8
         }
       ],
       "fluids": [],
@@ -646,7 +655,9 @@
       "profession": "Builder",
       "forced": true,
       "minLevel": 5,
-      "dependencies": [],
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000011"
+      ],
       "experience": 20,
       "money": 0,
       "items": [
@@ -658,7 +669,7 @@
       "fluids": [],
       "rewards": [
         {
-          "item": "mekanism:electrolytic_seperator",
+          "item": "mekanism:electrolytic_separator",
           "amount": 1
         }
       ]
@@ -952,7 +963,7 @@
       "contractorName": "Harry",
       "profession": "Hacker",
       "forced": true,
-      "minLevel": 7,
+      "minLevel": 8,
       "dependencies": [],
       "experience": 10,
       "money": 0,
@@ -983,7 +994,7 @@
       "contractorName": "Joe",
       "profession": "Farmer",
       "forced": false,
-      "minLevel": 7,
+      "minLevel": 8,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000004"
       ],
@@ -1006,7 +1017,7 @@
       "contractorName": "Holger",
       "profession": "Hippie",
       "forced": false,
-      "minLevel": 7,
+      "minLevel": 8,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000031"
       ],
@@ -1029,7 +1040,7 @@
       "contractorName": "Boris",
       "profession": "Beekeeper",
       "forced": false,
-      "minLevel": 7,
+      "minLevel": 8,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000025"
       ],
@@ -1052,7 +1063,7 @@
       "contractorName": "Holger",
       "profession": "Hippie",
       "forced": false,
-      "minLevel": 7,
+      "minLevel": 8,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000036"
       ],
@@ -1448,7 +1459,7 @@
       "id": "edb577e0-608e-11eb-ae93-000000000054",
       "name": "Do Not Open",
       "description": "(§$Q§(/$&§$§(%)$=%$%&§&$(!\"$§%($§%&$§$=)§\"$ Sent from my mPhone",
-      "skin": "wierdo",
+      "skin": "weirdo",
       "contractorName": "Evets",
       "profession": " ",
       "forced": false,
@@ -1514,7 +1525,7 @@
       "items": [
         {
           "tag": "forge:bones",
-          "amount": 256
+          "amount": 13824
         }
       ],
       "fluids": [],
@@ -2117,7 +2128,7 @@
           "amount": 10
         },
         {
-          "item": "mekanism:electrolytic_seperator",
+          "item": "mekanism:electrolytic_separator",
           "amount": 16
         },
         {

@@ -17,7 +17,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:diamond",
-    "mainOutputCount": 1
+    "mainOutputWeight": 0.125
   },
   "SpawnData": {
     "canSpawnInWorld": true,

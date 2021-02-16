@@ -18,7 +18,9 @@
     "mutationCount": 20
   },
   "CentrifugeData": {
-    "hasCentrifugeOutput": false
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ice",
+    "mainOutputWeight": 0.5
   },
   "SpawnData": {
     "canSpawnInWorld": false

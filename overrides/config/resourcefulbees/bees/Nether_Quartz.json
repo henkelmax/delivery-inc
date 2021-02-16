@@ -18,7 +18,7 @@
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
     "mainOutput": "minecraft:quartz",
-    "mainOutputCount": 2
+    "mainOutputCount": 1
   },
   "SpawnData": {
     "canSpawnInWorld": true,

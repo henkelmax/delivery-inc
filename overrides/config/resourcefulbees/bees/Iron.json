@@ -16,7 +16,8 @@
   },
   "CentrifugeData": {
     "hasCentrifugeOutput": true,
-    "mainOutput": "minecraft:iron_ingot"
+    "mainOutput": "minecraft:iron_ingot",
+    "mainOutputWeight": 0.25
   },
   "SpawnData": {
     "canSpawnInWorld": true,
