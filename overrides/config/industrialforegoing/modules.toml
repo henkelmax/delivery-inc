@@ -23,6 +23,9 @@
 		[modules.agriculture.mob_crusher]
 			enabled = true
 
+		[modules.agriculture.mob_duplicator]
+			enabled = true
+
 		[modules.agriculture.mob_slaughter_factory]
 			enabled = true
 

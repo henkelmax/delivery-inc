@@ -182,6 +182,9 @@
 		"Enable Blaze Lantern" = true
 		"Enable Bamboo Block" = true
 		"Enable Berry Sack" = true
+		#
+		#Allowed values: [0,)
+		"Bamboo Bundle Fuel Time" = 500
 		"Enable Golden Apple Crate" = true
 		"Enable Sugar Cane Block" = true
 		"Enable Bonded Leather" = true
