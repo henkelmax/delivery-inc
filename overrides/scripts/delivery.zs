@@ -56,6 +56,14 @@ mods.jei.JEI.hideItem(<item:mekanismadditions:walkie_talkie>);
 craftingTable.removeByName("mekanism:digital_miner");
 craftingTable.removeByName("mekanism:modification_station");
 
+craftingTable.removeByName("mekanism:quantum_entangloporter");
+
+craftingTable.addShaped("mekanism:quantum_entangloporter", <item:mekanism:quantum_entangloporter>, [
+    [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:item_pipe>],
+    [<item:pipez:fluid_pipe>, <item:mekanism:alloy_reinforced>, <item:pipez:fluid_pipe>],
+    [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:item_pipe>]
+]);
+
 # Pipez
 
 craftingTable.addShaped("infinity_upgrade", <item:pipez:infinity_upgrade>, [
@@ -464,3 +472,11 @@ furnace.removeByName("compressium:cobble_cook_6");
 furnace.removeByName("compressium:cobble_cook_7");
 furnace.removeByName("compressium:cobble_cook_8");
 furnace.removeByName("compressium:cobble_cook_9");
+
+# Thermal
+
+<recipetype:thermal:crucible>.removeRecipe(<fluid:minecraft:lava>);
+
+<recipetype:thermal:crucible>.addRecipe("lava_from_cobble", <fluid:minecraft:lava>*1000, <tag:items:forge:cobblestone>, 6400);
+
+<recipetype:thermal:chiller>.addRecipe("honey_blocks_resourceful", <item:minecraft:honey_block>, <item:thermal:chiller_ball_cast>, <fluid:resourcefulbees:honey> * 1000, 2000);
