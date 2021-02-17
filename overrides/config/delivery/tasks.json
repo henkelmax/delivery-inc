@@ -1993,7 +1993,7 @@
       "money": 750,
       "items": [
         {
-          "item": "resourcefulbees:rgbee_honeycomb_block",
+          "item": "resourcefulbees:color_honeycomb_block",
           "amount": 512
         }
       ],
