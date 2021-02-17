@@ -136,6 +136,14 @@ craftingTable.removeByName("pneumaticcraft:amadron_tablet");
 craftingTable.addShapeless("pneumaticcraft:assembly_program_laser", <item:pneumaticcraft:assembly_program_laser>, [<item:mekanism:laser>, <item:pneumaticcraft:empty_pcb>]);
 craftingTable.addShapeless("pneumaticcraft:assembly_program_drill", <item:pneumaticcraft:assembly_program_drill>, [<item:pneumaticcraft:drill_bit_iron>, <item:pneumaticcraft:empty_pcb>]);
 
+craftingTable.removeByName("pneumaticcraft:uv_light_box");
+
+craftingTable.addShaped("pneumaticcraft:uv_light_box", <item:pneumaticcraft:uv_light_box>, [
+    [<item:minecraft:redstone_lamp>, <item:minecraft:redstone_lamp>, <item:minecraft:redstone_lamp>],
+    [<tag:items:forge:ingots/compressed_iron>, <item:pneumaticcraft:empty_pcb>, <item:pneumaticcraft:pressure_tube>],
+    [<tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>]
+]);
+
 # RF Tools
 
 mods.jei.JEI.hideItem(<item:rftoolsutility:matter_booster>);
