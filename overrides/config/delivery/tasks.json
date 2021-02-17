@@ -732,7 +732,7 @@
     },
     {
       "id": "edb577e0-608e-11eb-ae93-000000000026",
-      "name": "Bamboozeled",
+      "name": "Bamboozled",
       "description": "I need some economic mats to sleep on. My whole family would want them actually.",
       "skin": "hippie",
       "contractorName": "Holger",
@@ -1063,11 +1063,11 @@
       "contractorName": "Holger",
       "profession": "Hippie",
       "forced": false,
-      "minLevel": 8,
+      "minLevel": 13,
       "dependencies": [
-        "edb577e0-608e-11eb-ae93-000000000036"
+        "edb577e0-608e-11eb-ae93-000000000089"
       ],
-      "experience": 25,
+      "experience": 100,
       "money": 200,
       "items": [
         {
@@ -1237,7 +1237,7 @@
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000030"
       ],
-      "experience": 60,
+      "experience": 100,
       "money": 400,
       "items": [
         {
@@ -1251,12 +1251,12 @@
     {
       "id": "edb577e0-608e-11eb-ae93-000000000046",
       "name": "Withering",
-      "description": "I heard of a crazy dark creature. I once saw it in my nightmares, can you take a picture of a wither? Make sure you get a wither rose from it, it could come in handy.",
+      "description": "I heard of a crazy dark creature. I once saw it in my nightmares, can you take a picture of a wither?",
       "skin": "adventurer",
       "contractorName": "Alina",
       "profession": "Adventurer",
       "forced": false,
-      "minLevel": 11,
+      "minLevel": 15,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000017"
       ],
@@ -1282,8 +1282,7 @@
       "forced": false,
       "minLevel": 12,
       "dependencies": [
-        "edb577e0-608e-11eb-ae93-000000000016",
-        "edb577e0-608e-11eb-ae93-000000000046"
+        "edb577e0-608e-11eb-ae93-000000000016"
       ],
       "experience": 60,
       "money": 400,
@@ -1331,7 +1330,7 @@
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000044"
       ],
-      "experience": 60,
+      "experience": 120,
       "money": 400,
       "items": [
         {
@@ -1350,7 +1349,7 @@
       "contractorName": "Frank",
       "profession": "Knight",
       "forced": false,
-      "minLevel": 13,
+      "minLevel": 16,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000005"
       ],
@@ -1374,7 +1373,7 @@
       "contractorName": "Alina",
       "profession": "Adventurer",
       "forced": false,
-      "minLevel": 14,
+      "minLevel": 17,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000046",
         "edb577e0-608e-11eb-ae93-000000000050"
@@ -1687,7 +1686,7 @@
       "items": [
         {
           "item": "mysticalagriculture:tertium_farmland",
-          "amount": 5
+          "amount": 32
         }
       ],
       "fluids": [],
@@ -1710,7 +1709,7 @@
       "items": [
         {
           "item": "compactmachines:machine_maximum",
-          "amount": 1
+          "amount": 3
         }
       ],
       "fluids": [],
@@ -1760,7 +1759,7 @@
       "items": [
         {
           "tag": "resourcefulbees:resourceful_honeycomb_block",
-          "amount": 64
+          "amount": 256
         }
       ],
       "fluids": [],
@@ -1925,7 +1924,7 @@
       "items": [
         {
           "tag": "forge:glass",
-          "amount": 13824
+          "amount": 27648
         }
       ],
       "fluids": [],
@@ -2291,7 +2290,7 @@
       "contractorName": "Bob",
       "profession": "Builder",
       "forced": false,
-      "minLevel": 15,
+      "minLevel": 14,
       "dependencies": [
         "edb577e0-608e-11eb-ae93-000000000049"
       ],
@@ -2341,6 +2340,29 @@
         {
           "item": "compressium:netherrack_9",
           "amount": 1
+        }
+      ],
+      "fluids": [],
+      "rewards": []
+    },
+    {
+      "id": "edb577e0-608e-11eb-ae93-000000000089",
+      "name": "Lot More Renewable Energy",
+      "description": "I need another upgrade to my solar cells to power the neighbors house too.",
+      "skin": "hippie",
+      "contractorName": "Holger",
+      "profession": "Hippie",
+      "forced": false,
+      "minLevel": 11,
+      "dependencies": [
+        "edb577e0-608e-11eb-ae93-000000000036"
+      ],
+      "experience": 100,
+      "money": 200,
+      "items": [
+        {
+          "item": "solarflux:sp_3",
+          "amount": 8
         }
       ],
       "fluids": [],
