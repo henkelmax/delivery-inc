@@ -416,6 +416,12 @@ craftingTable.removeByName("buildinggadgets:gadget_exchanging");
 # Angel Ring
 
 craftingTable.removeByName("angelring:itemdiamondring");
+craftingTable.removeByName("angelring:itemring");
+craftingTable.addShaped("angelring:itemring", <item:angelring:itemring>, [
+    [<tag:items:forge:feathers>, <tag:items:forge:storage_blocks/gold>, <tag:items:forge:feathers>],
+    [<tag:items:forge:storage_blocks/gold>, <item:angelring:itemdiamondring>, <tag:items:forge:storage_blocks/gold>],
+    [<tag:items:forge:rods/blaze>, <item:minecraft:elytra>, <tag:items:forge:rods/blaze>]
+]);
 
 # Chunkloaders
 
