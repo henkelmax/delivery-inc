@@ -416,7 +416,6 @@ craftingTable.removeByName("buildinggadgets:gadget_exchanging");
 # Angel Ring
 
 craftingTable.removeByName("angelring:itemdiamondring");
-craftingTable.addShapeless("angelring:itemdiamondring", <item:angelring:itemdiamondring>*2, [<item:angelring:itemdiamondring>, <item:minecraft:elytra>]);
 
 # Chunkloaders
 
