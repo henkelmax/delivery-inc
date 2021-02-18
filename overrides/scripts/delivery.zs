@@ -480,3 +480,23 @@ furnace.removeByName("compressium:cobble_cook_9");
 <recipetype:thermal:crucible>.addRecipe("lava_from_cobble", <fluid:minecraft:lava>*1000, <tag:items:forge:cobblestone>, 6400);
 
 <recipetype:thermal:chiller>.addRecipe("honey_blocks_resourceful", <item:minecraft:honey_block>, <item:thermal:chiller_ball_cast>, <fluid:resourcefulbees:honey> * 1000, 2000);
+
+<recipetype:thermal:pulverizer>.removeByName("thermal:machine/pulverizer/pulverizer_bronze_ingot_to_dust");
+
+<recipetype:thermal:pulverizer>.addRecipe("pulverize_bronze", [<item:mekanism:dust_bronze> % 100] , <tag:items:forge:ingots/bronze>, 1, 2000);
+
+craftingTable.removeByName("thermal:bronze_dust_4");
+
+craftingTable.removeByName("thermal:storage/bronze_ingot_from_nuggets");
+craftingTable.removeByName("thermal:storage/bronze_ingot_from_block");
+craftingTable.removeByName("thermal:storage/bronze_block");
+craftingTable.removeByName("thermal:fire_charge/bronze_ingot_4");
+blastFurnace.removeByName("thermal:smelting/bronze_ingot_from_dust_blasting");
+furnace.removeByName("thermal:smelting/bronze_ingot_from_dust_smelting");
+
+<recipetype:thermal:smelter>.removeRecipe(<item:thermal:bronze_ingot>);
+
+mods.jei.JEI.hideItem(<item:thermal:bronze_dust>);
+mods.jei.JEI.hideItem(<item:thermal:bronze_nugget>);
+mods.jei.JEI.hideItem(<item:thermal:bronze_ingot>);
+mods.jei.JEI.hideItem(<item:thermal:bronze_block>);
