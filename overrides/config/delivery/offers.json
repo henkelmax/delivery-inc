@@ -44,7 +44,7 @@
       "forEveryMember": true
     },
     {
-      "id": "01234567-0000-0000-0000-000000000009",
+      "id": "01234567-0000-0000-0000-00000000009a",
       "price": 1000,
       "levelRequirement": 14,
       "item": "buildinggadgets:gadget_destruction",
@@ -52,7 +52,7 @@
       "forEveryMember": true
     },
     {
-      "id": "01234567-0000-0000-0000-000000000009",
+      "id": "01234567-0000-0000-0000-00000000009b",
       "price": 1000,
       "levelRequirement": 15,
       "item": "buildinggadgets:gadget_building",
@@ -60,7 +60,7 @@
       "forEveryMember": true
     },
     {
-      "id": "01234567-0000-0000-0000-000000000009",
+      "id": "01234567-0000-0000-0000-00000000009c",
       "price": 500,
       "levelRequirement": 15,
       "item": "buildinggadgets:gadget_exchanging",
@@ -68,7 +68,7 @@
       "forEveryMember": true
     },
     {
-      "id": "01234567-0000-0000-0000-000000000010",
+      "id": "01234567-0000-0000-0000-00000000009d",
       "price": 1000,
       "levelRequirement": 16,
       "item": "buildinggadgets:gadget_copy_paste",
