@@ -505,3 +505,13 @@ mods.jei.JEI.hideItem(<item:thermal:bronze_dust>);
 mods.jei.JEI.hideItem(<item:thermal:bronze_nugget>);
 mods.jei.JEI.hideItem(<item:thermal:bronze_ingot>);
 mods.jei.JEI.hideItem(<item:thermal:bronze_block>);
+
+# Botany Pots
+
+import mods.botanypots.ZenCrop;
+val crops = <recipetype:botanypots:crop>;
+
+val fluoriteCrop = crops.create("delivery:fluorite", <item:mysticalagriculture:fluorite_seeds>, [<blockstate:mysticalagriculture:fluorite_crop:age=7>], 2500, ["tertium", "imperium", "supremium", "insanium"]);
+fluoriteCrop.addDrop(<item:mysticalagriculture:fluorite_essence>, 0.75);
+fluoriteCrop.addDrop(<item:mysticalagriculture:fluorite_seeds>, 0.05);
+fluoriteCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
