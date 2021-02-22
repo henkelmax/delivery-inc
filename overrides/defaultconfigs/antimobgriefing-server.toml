@@ -6,28 +6,28 @@ disable_wither_rose_placing = false
 disable_egg_trampling = false
 
 [creeper]
-	#Disable Creeper block griefing
-	disable_explosion_block_damage = true
 	#Disable Creeper damage
 	disable_damage = false
+	#Disable Creeper block griefing
+	disable_explosion_block_damage = true
+
+	[creeper.lingering_effects]
+		#The potion effects that the creeper spawns upon exploding
+		effects = ["{Ambient:0b,CurativeItems:[{id:\"minecraft:milk_bucket\",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:200,Id:9b,Amplifier:1b}"]
+		#If creepers should spawn a lingering effect cloud upon exploding
+		enabled = true
 
 	[creeper.firework]
 		enabled = true
 		#The colors that the firework contains
 		colors = ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
 
-	[creeper.lingering_effects]
-		#If creepers should spawn a lingering effect cloud upon exploding
-		enabled = true
-		#The potion effects that the creeper spawns upon exploding
-		effects = ["{Ambient:0b,CurativeItems:[{id:\"minecraft:milk_bucket\",Count:1b}],ShowIcon:1b,ShowParticles:1b,Duration:200,Id:9b,Amplifier:1b}"]
-
 	[creeper.knockback]
-		#If players should be knocked back when a Creeper explodes
-		enabled = false
 		#The amount of speed applied to the player when knocked back
 		#Range: 0.0 ~ 5.0
 		factor = 2.5
+		#If players should be knocked back when a Creeper explodes
+		enabled = false
 
 [enderman]
 	#Disable Endermen picking up blocks
