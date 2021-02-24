@@ -2330,15 +2330,15 @@
       "money": 5000,
       "items": [
         {
-          "item": "compressium:cobblestone_9",
+          "item": "compressium:cobblestone_8",
           "amount": 1
         },
         {
-          "item": "compressium:endstone_7",
+          "item": "compressium:netherrack_7",
           "amount": 1
         },
         {
-          "item": "compressium:netherrack_8",
+          "item": "compressium:endstone_6",
           "amount": 1
         }
       ],
