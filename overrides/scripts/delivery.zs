@@ -515,3 +515,12 @@ val fluoriteCrop = crops.create("delivery:fluorite", <item:mysticalagriculture:f
 fluoriteCrop.addDrop(<item:mysticalagriculture:fluorite_essence>, 0.75);
 fluoriteCrop.addDrop(<item:mysticalagriculture:fluorite_seeds>, 0.05);
 fluoriteCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
+
+val phantomCrop = crops.create("delivery:phantom", <item:mysticalagriculture:phantom_seeds>, [<blockstate:mysticalagriculture:phantom_crop:age=7>], 2500, ["tertium", "imperium", "supremium", "insanium"]);
+phantomCrop.addDrop(<item:mysticalagriculture:phantom_essence>, 0.75);
+phantomCrop.addDrop(<item:mysticalagriculture:phantom_seeds>, 0.05);
+phantomCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
+
+craftingTable.addShaped("minecraft:phantom_membrane", <item:minecraft:phantom_membrane>, [
+    [<item:mysticalagriculture:phantom_essence>, <item:mysticalagriculture:phantom_essence>, <item:mysticalagriculture:phantom_essence>]
+]);

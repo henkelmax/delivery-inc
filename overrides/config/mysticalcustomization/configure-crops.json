@@ -76,5 +76,10 @@
         "ingredient": {
             "item": "thermal:enderium_ingot"
         }
+    },
+    "mysticalagriculture:rabbit": {
+        "ingredient": {
+            "item": "thermal:carrot_block"
+          }
     }
 }
