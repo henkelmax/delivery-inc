@@ -2276,7 +2276,7 @@
       "items": [
         {
           "item": "extradisks:1048576k_storage_disk",
-          "amount": 4
+          "amount": 1
         }
       ],
       "fluids": [],
