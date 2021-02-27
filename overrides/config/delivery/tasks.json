@@ -3340,7 +3340,7 @@
       "fluids": [
         {
           "fluid": "industrialforegoing:sludge",
-          "amount": 64000
+          "amount": 32000
         }
       ]
     },
@@ -3358,7 +3358,7 @@
       "fluids": [
         {
           "fluid": "industrialforegoing:sewage",
-          "amount": 64000
+          "amount": 32000
         }
       ]
     },
@@ -3534,7 +3534,7 @@
       "fluids": [
         {
           "fluid": "industrialforegoing:meat",
-          "amount": 64000
+          "amount": 32000
         }
       ]
     },
