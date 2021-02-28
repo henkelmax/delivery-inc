@@ -12,6 +12,8 @@ Initially, you receive orders by mail, but after a certain level, a computer is 
 
 Contract items can be sent either by letter or by parcel in the mailbox, or later with drones that can send cardboard boxes or barrels to the contractors.
 
+![](https://media3.giphy.com/media/5HK6TBT49HUMLve4jx/giphy.gif)
+
 After an order is completed, you receive either a gift or money.
 Additionally, you receive experience points, which you can use to unlock items that you can order with the money you earned by completing contracts (_These items are intended to prevent the player from progressing the game without doing quests_).
 
