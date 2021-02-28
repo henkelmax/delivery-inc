@@ -2419,7 +2419,7 @@
       "items": [
         {
           "tag": "resourcefulbees:resourceful_honeycomb_block",
-          "amount": 2048
+          "amount": 1024
         }
       ],
       "fluids": []
@@ -2554,12 +2554,12 @@
       "experience": 125,
       "money": 500,
       "base": 30,
-      "offset": 5,
+      "offset": 2,
       "multiplier": 1.2,
       "items": [
         {
           "item": "mysticalagradditions:insanium_gemstone_block",
-          "amount": 3
+          "amount": 4
         }
       ],
       "fluids": []
@@ -2999,7 +2999,7 @@
       "money": 500,
       "base": 30,
       "offset": 1,
-      "multiplier": 1.2,
+      "multiplier": 1.1,
       "items": [
         {
           "item": "pneumaticcraft:sourdough_bread",
@@ -3340,7 +3340,7 @@
       "fluids": [
         {
           "fluid": "industrialforegoing:sludge",
-          "amount": 32000
+          "amount": 16000
         }
       ]
     },
@@ -3358,7 +3358,7 @@
       "fluids": [
         {
           "fluid": "industrialforegoing:sewage",
-          "amount": 32000
+          "amount": 16000
         }
       ]
     },
@@ -3534,7 +3534,7 @@
       "fluids": [
         {
           "fluid": "industrialforegoing:meat",
-          "amount": 32000
+          "amount": 16000
         }
       ]
     },
@@ -3580,12 +3580,12 @@
       "experience": 125,
       "money": 500,
       "base": 30,
-      "offset": 1,
-      "multiplier": 1.2,
+      "offset": 5,
+      "multiplier": 1.1,
       "items": [
         {
           "item": "industrialforegoing:machine_frame_supreme",
-          "amount": 32
+          "amount": 16
         }
       ],
       "fluids": []
@@ -3789,7 +3789,7 @@
       "items": [
         {
           "item": "industrialforegoing:infinity_saw",
-          "amount": 128
+          "amount": 32
         }
       ],
       "fluids": []
@@ -4139,8 +4139,8 @@
       "profession": "Laborant",
       "experience": 125,
       "money": 500,
-      "base": 30,
-      "offset": 1,
+      "base": 40,
+      "offset": 3,
       "multiplier": 1.2,
       "items": [
         {
@@ -4159,7 +4159,7 @@
       "money": 500,
       "base": 30,
       "offset": 1,
-      "multiplier": 1.2,
+      "multiplier": 1.05,
       "items": [
         {
           "item": "easy_villagers:villager",
