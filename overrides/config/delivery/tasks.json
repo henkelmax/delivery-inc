@@ -416,7 +416,7 @@
         {
           "item": "patchouli:guide_book",
           "amount": 1,
-          "nbt": "{\\\"patchouli:book\\\":\\\"resourcefulbees:fifty_shades_of_bees\\\"}"
+          "nbt": "{\"patchouli:book\":\"resourcefulbees:fifty_shades_of_bees\"}"
         },
         {
           "item": "resourcefulbees:t1_apiary",
