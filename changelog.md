@@ -1,0 +1,1 @@
+- Fixed Quark config console spam
