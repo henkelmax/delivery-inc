@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Delivery Inc",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Max Henkel, Yannick Gardt",
   "files": [
     {
@@ -170,13 +170,13 @@
       "required": true
     },
     {
-      "projectID": 443286,
-      "fileID": 3229130,
+      "projectID": 393149,
+      "fileID": 3185428,
       "required": true
     },
     {
-      "projectID": 393149,
-      "fileID": 3185428,
+      "projectID": 443286,
+      "fileID": 3229130,
       "required": true
     },
     {
@@ -346,7 +346,7 @@
     },
     {
       "projectID": 243121,
-      "fileID": 3212156,
+      "fileID": 3221260,
       "required": true
     },
     {

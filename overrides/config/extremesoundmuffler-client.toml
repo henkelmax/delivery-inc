@@ -6,7 +6,7 @@
 	#Set to true to move the muffle and play buttons to the left side of the GUI
 	leftButtons = false
 	#Show a message the first time a sound is muffled indicating that you can change the volume
-	showTip = true
+	showTip = false
 	#Volume set when pressed the mute button by default
 	#Range: 0.0 ~ 0.9
 	defaultMuteVolume = 0.0
