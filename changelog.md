@@ -1,1 +1,1 @@
-- Fixed invalid recipe names
+- Updated compact machines
