@@ -69,3 +69,10 @@ jobs:
           asset_path: ./modpack-server.zip
           asset_name: 'Delivery-Inc-Server-${{ steps.get_release.outputs.tag_name }}.zip'
           asset_content_type: application/zip
+      - name: Send Announcement
+        uses: henkelmax/delivery-inc-discord-announcer-action@v1.0.0
+        with:
+          bot-token: ${{ secrets.DISCORD_BOT_TOKEN }}
+          channel-id: '817727363781230592'
+          version: ${{ steps.get_release.outputs.tag_name }}
+          changelog-path: ./changelog.md
