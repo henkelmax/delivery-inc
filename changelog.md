@@ -1,1 +1,1 @@
-- Fixed Quark config console spam
+- Fixed invalid recipe names

@@ -58,7 +58,7 @@ craftingTable.removeByName("mekanism:modification_station");
 
 craftingTable.removeByName("mekanism:quantum_entangloporter");
 
-craftingTable.addShaped("mekanism:quantum_entangloporter", <item:mekanism:quantum_entangloporter>, [
+craftingTable.addShaped("mekanism.quantum_entangloporter", <item:mekanism:quantum_entangloporter>, [
     [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:item_pipe>],
     [<item:pipez:fluid_pipe>, <item:mekanism:alloy_reinforced>, <item:pipez:fluid_pipe>],
     [<item:pipez:item_pipe>, <item:pipez:energy_pipe>, <item:pipez:item_pipe>]
@@ -141,12 +141,12 @@ mods.jei.JEI.hideCategory("pneumaticcraft:amadron_trade");
 mods.jei.JEI.hideItem(<item:pneumaticcraft:amadron_tablet>);
 craftingTable.removeByName("pneumaticcraft:amadron_tablet");
 
-craftingTable.addShapeless("pneumaticcraft:assembly_program_laser", <item:pneumaticcraft:assembly_program_laser>, [<item:mekanism:laser>, <item:pneumaticcraft:empty_pcb>]);
-craftingTable.addShapeless("pneumaticcraft:assembly_program_drill", <item:pneumaticcraft:assembly_program_drill>, [<item:pneumaticcraft:drill_bit_iron>, <item:pneumaticcraft:empty_pcb>]);
+craftingTable.addShapeless("pneumaticcraft.assembly_program_laser", <item:pneumaticcraft:assembly_program_laser>, [<item:mekanism:laser>, <item:pneumaticcraft:empty_pcb>]);
+craftingTable.addShapeless("pneumaticcraft.assembly_program_drill", <item:pneumaticcraft:assembly_program_drill>, [<item:pneumaticcraft:drill_bit_iron>, <item:pneumaticcraft:empty_pcb>]);
 
 craftingTable.removeByName("pneumaticcraft:uv_light_box");
 
-craftingTable.addShaped("pneumaticcraft:uv_light_box", <item:pneumaticcraft:uv_light_box>, [
+craftingTable.addShaped("pneumaticcraft.uv_light_box", <item:pneumaticcraft:uv_light_box>, [
     [<item:minecraft:redstone_lamp>, <item:minecraft:redstone_lamp>, <item:minecraft:redstone_lamp>],
     [<tag:items:forge:ingots/compressed_iron>, <item:pneumaticcraft:empty_pcb>, <item:pneumaticcraft:pressure_tube>],
     [<tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>, <tag:items:forge:ingots/compressed_iron>]
@@ -266,41 +266,41 @@ craftingTable.addShaped("tank", <item:quantumstorage:tank>, [
 # Resourceful Bees
 
 craftingTable.removeByName("resourcefulbees:t1_apiary");
-craftingTable.addShaped("resourcefulbees:t1_apiary", <item:resourcefulbees:t1_apiary>, [
+craftingTable.addShaped("resourcefulbees.t1_apiary", <item:resourcefulbees:t1_apiary>, [
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:compressium:honey_1>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
     [<item:compressium:honey_1>, <item:resourcefulbees:t4_beehive>, <item:compressium:honey_1>],
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:compressium:honey_1>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
 ]);
 
 craftingTable.removeByName("resourcefulbees:t2_apiary");
-craftingTable.addShaped("resourcefulbees:t2_apiary", <item:resourcefulbees:t2_apiary>, [
+craftingTable.addShaped("resourcefulbees.t2_apiary", <item:resourcefulbees:t2_apiary>, [
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
     [<item:minecraft:nether_star>, <item:resourcefulbees:t1_apiary>, <item:minecraft:nether_star>],
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
 ]);
 
 craftingTable.removeByName("resourcefulbees:t3_apiary");
-craftingTable.addShaped("resourcefulbees:t3_apiary", <item:resourcefulbees:t3_apiary>, [
+craftingTable.addShaped("resourcefulbees.t3_apiary", <item:resourcefulbees:t3_apiary>, [
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
     [<item:minecraft:nether_star>, <item:resourcefulbees:t2_apiary>, <item:minecraft:nether_star>],
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
 ]);
 
 craftingTable.removeByName("resourcefulbees:t4_apiary");
-craftingTable.addShaped("resourcefulbees:t4_apiary", <item:resourcefulbees:t4_apiary>, [
+craftingTable.addShaped("resourcefulbees.t4_apiary", <item:resourcefulbees:t4_apiary>, [
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>],
     [<item:minecraft:nether_star>, <item:resourcefulbees:t3_apiary>, <item:minecraft:nether_star>],
     [<tag:items:resourcefulbees:resourceful_honeycomb_block>, <item:minecraft:nether_star>, <tag:items:resourcefulbees:resourceful_honeycomb_block>]
 ]);
 
 craftingTable.removeByName("minecraft:honeycomb_block");
-craftingTable.addShaped("minecraft:honeycomb_block", <item:minecraft:honeycomb_block>, [
+craftingTable.addShaped("minecraft.honeycomb_block", <item:minecraft:honeycomb_block>, [
     [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>],
     [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>],
     [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>]
 ]);
 
-craftingTable.addShapeless("minecraft:honeycomb", <item:minecraft:honeycomb>*9, [<item:minecraft:honeycomb_block>]);
+craftingTable.addShapeless("minecraft.honeycomb", <item:minecraft:honeycomb>*9, [<item:minecraft:honeycomb_block>]);
 
 # Easy Villagers
 
@@ -318,13 +318,13 @@ mods.jei.JEI.hideItem(<item:quark:magnet>);
 
 # Compact Machines
 
-craftingTable.addShaped("compactmachines:item_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:item"}}), [
+craftingTable.addShaped("compactmachines.item_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:item"}}), [
     [<item:pipez:item_pipe>, <item:mekanism:alloy_infused>, <item:pipez:item_pipe>],
     [<item:mekanism:alloy_infused>, <item:rftoolsbase:dimensionalshard>, <item:mekanism:alloy_infused>],
     [<item:pipez:item_pipe>, <item:mekanism:alloy_infused>, <item:pipez:item_pipe>]
 ]);
 
-craftingTable.addShaped("compactmachines:redstone_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:redstone_in"}}), [
+craftingTable.addShaped("compactmachines.redstone_tunnel", <item:compactmachines:tunnel>.withTag({definition: {id: "compactmachines:redstone_in"}}), [
     [<tag:items:forge:dusts/redstone>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/redstone>],
     [<item:mekanism:alloy_infused>, <item:rftoolsbase:dimensionalshard>, <item:mekanism:alloy_infused>],
     [<tag:items:forge:dusts/redstone>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/redstone>]
@@ -333,35 +333,35 @@ craftingTable.addShaped("compactmachines:redstone_tunnel", <item:compactmachines
 craftingTable.removeByName("compactmachines:personal_shrinking_device");
 
 craftingTable.removeByName("compactmachines:machine_small");
-craftingTable.addShaped("compactmachines:machine_small", <item:compactmachines:machine_small>, [
+craftingTable.addShaped("compactmachines.machine_small", <item:compactmachines:machine_small>, [
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
     [<item:compactmachines:machine_tiny>, <tag:items:forge:storage_blocks/iron>, <item:compactmachines:machine_tiny>],
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
 ]);
 
 craftingTable.removeByName("compactmachines:machine_normal");
-craftingTable.addShaped("compactmachines:machine_normal", <item:compactmachines:machine_normal>, [
+craftingTable.addShaped("compactmachines.machine_normal", <item:compactmachines:machine_normal>, [
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
     [<item:compactmachines:machine_small>, <tag:items:forge:storage_blocks/gold>, <item:compactmachines:machine_small>],
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
 ]);
 
 craftingTable.removeByName("compactmachines:machine_large");
-craftingTable.addShaped("compactmachines:machine_large", <item:compactmachines:machine_large>, [
+craftingTable.addShaped("compactmachines.machine_large", <item:compactmachines:machine_large>, [
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
     [<item:compactmachines:machine_normal>, <item:compressium:obsidian_1>, <item:compactmachines:machine_normal>],
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
 ]);
 
 craftingTable.removeByName("compactmachines:machine_giant");
-craftingTable.addShaped("compactmachines:machine_giant", <item:compactmachines:machine_giant>, [
+craftingTable.addShaped("compactmachines.machine_giant", <item:compactmachines:machine_giant>, [
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
     [<item:compactmachines:machine_large>, <tag:items:forge:storage_blocks/diamond>, <item:compactmachines:machine_large>],
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
 ]);
 
 craftingTable.removeByName("compactmachines:machine_maximum");
-craftingTable.addShaped("compactmachines:machine_maximum", <item:compactmachines:machine_maximum>, [
+craftingTable.addShaped("compactmachines.machine_maximum", <item:compactmachines:machine_maximum>, [
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
     [<item:compactmachines:machine_giant>, <tag:items:forge:storage_blocks/emerald>, <item:compactmachines:machine_giant>],
     [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
@@ -370,21 +370,21 @@ craftingTable.addShaped("compactmachines:machine_maximum", <item:compactmachines
 # Dark Utilities
 
 craftingTable.removeByName("darkutils:crafting/vector_plate");
-craftingTable.addShaped("darkutils:crafting/vector_plate", <item:darkutils:vector_plate>*6, [
+craftingTable.addShaped("darkutils.crafting/vector_plate", <item:darkutils:vector_plate>*6, [
     [<item:darkutils:blank_plate>, <item:darkutils:blank_plate>, <item:darkutils:blank_plate>],
     [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
     [<item:darkutils:blank_plate>, <item:darkutils:blank_plate>, <item:darkutils:blank_plate>]
 ]);
 
 craftingTable.removeByName("darkutils:crafting/vector_plate_fast");
-craftingTable.addShaped("darkutils:vector_plate_fast", <item:darkutils:vector_plate_fast>, [
+craftingTable.addShaped("darkutils.vector_plate_fast", <item:darkutils:vector_plate_fast>, [
     [<item:darkutils:vector_plate>, <item:darkutils:vector_plate>, <item:darkutils:vector_plate>],
     [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
     [<item:darkutils:vector_plate>, <item:darkutils:vector_plate>, <item:darkutils:vector_plate>]
 ]);
 
 craftingTable.removeByName("darkutils:crafting/vector_plate_extreme");
-craftingTable.addShaped("darkutils:vector_plate", <item:darkutils:vector_plate_extreme>, [
+craftingTable.addShaped("darkutils.vector_plate", <item:darkutils:vector_plate_extreme>, [
     [<item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>],
     [<item:thermal:redstone_servo>, <item:thermal:redstone_servo>, <item:thermal:redstone_servo>],
     [<item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>, <item:darkutils:vector_plate_fast>]
@@ -417,7 +417,7 @@ craftingTable.removeByName("buildinggadgets:gadget_exchanging");
 
 craftingTable.removeByName("angelring:itemdiamondring");
 craftingTable.removeByName("angelring:itemring");
-craftingTable.addShaped("angelring:itemring", <item:angelring:itemring>, [
+craftingTable.addShaped("angelring.itemring", <item:angelring:itemring>, [
     [<tag:items:forge:feathers>, <tag:items:forge:storage_blocks/gold>, <tag:items:forge:feathers>],
     [<tag:items:forge:storage_blocks/gold>, <item:angelring:itemdiamondring>, <tag:items:forge:storage_blocks/gold>],
     [<tag:items:forge:rods/blaze>, <item:minecraft:elytra>, <tag:items:forge:rods/blaze>]
@@ -430,28 +430,28 @@ craftingTable.removeByName("chunkloaders:basic_chunk_loader");
 # CobbleForDays
 
 craftingTable.removeByName("cobblefordays:tier_2");
-craftingTable.addShaped("cobblefordays:tier_2", <item:cobblefordays:tier_2>, [
+craftingTable.addShaped("cobblefordays.tier_2", <item:cobblefordays:tier_2>, [
     [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>],
     [<item:cobblefordays:tier_1>, <item:cobblefordays:tier_1>, <item:cobblefordays:tier_1>],
     [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>]
 ]);
 
 craftingTable.removeByName("cobblefordays:tier_3");
-craftingTable.addShaped("cobblefordays:tier_3", <item:cobblefordays:tier_3>, [
+craftingTable.addShaped("cobblefordays.tier_3", <item:cobblefordays:tier_3>, [
     [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>],
     [<item:cobblefordays:tier_2>, <item:cobblefordays:tier_2>, <item:cobblefordays:tier_2>],
     [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>]
 ]);
 
 craftingTable.removeByName("cobblefordays:tier_4");
-craftingTable.addShaped("cobblefordays:tier_4", <item:cobblefordays:tier_4>, [
+craftingTable.addShaped("cobblefordays.tier_4", <item:cobblefordays:tier_4>, [
     [<tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>],
     [<item:cobblefordays:tier_3>, <item:cobblefordays:tier_3>, <item:cobblefordays:tier_3>],
     [<tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>, <tag:items:forge:storage_blocks/gold>]
 ]);
 
 craftingTable.removeByName("cobblefordays:tier_5");
-craftingTable.addShaped("cobblefordays:tier_5", <item:cobblefordays:tier_5>, [
+craftingTable.addShaped("cobblefordays.tier_5", <item:cobblefordays:tier_5>, [
     [<tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>],
     [<item:cobblefordays:tier_4>, <item:cobblefordays:tier_4>, <item:cobblefordays:tier_4>],
     [<tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>, <tag:items:forge:storage_blocks/diamond>]
@@ -461,7 +461,7 @@ craftingTable.addShaped("cobblefordays:tier_5", <item:cobblefordays:tier_5>, [
 
 craftingTable.removeByName("mysticalagriculture:infusion_altar");
 craftingTable.removeByName("mysticalagriculture:infusion_pedestal");
-craftingTable.addShaped("mysticalagriculture:infusion_pedestal", <item:mysticalagriculture:infusion_pedestal>, [
+craftingTable.addShaped("mysticalagriculture.infusion_pedestal", <item:mysticalagriculture:infusion_pedestal>, [
     [<item:minecraft:air>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:air>],
     [<item:mekanism:alloy_atomic>, <item:mysticalagriculture:tertium_gemstone>, <item:mekanism:alloy_atomic>],
     [<tag:items:forge:stone>, <tag:items:forge:stone>, <tag:items:forge:stone>]
@@ -521,6 +521,6 @@ phantomCrop.addDrop(<item:mysticalagriculture:phantom_essence>, 0.75);
 phantomCrop.addDrop(<item:mysticalagriculture:phantom_seeds>, 0.05);
 phantomCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 
-craftingTable.addShaped("minecraft:phantom_membrane", <item:minecraft:phantom_membrane>, [
+craftingTable.addShaped("minecraft.phantom_membrane", <item:minecraft:phantom_membrane>, [
     [<item:mysticalagriculture:phantom_essence>, <item:mysticalagriculture:phantom_essence>, <item:mysticalagriculture:phantom_essence>]
 ]);
