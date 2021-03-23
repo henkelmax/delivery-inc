@@ -1,5 +1,7 @@
 
 [general]
+	#Should players holding an Amadron Tablet get a notification message when offers are shuffled periodically?
+	notify_amadron_offer_updates = true
 	#Should the SSP game pause when the Programmer GUI is open (does not apply in SMP)?
 	programmer_gui_pauses = false
 	#Show tank fluids with the The One Probe. Note that TOP also has support for showing tanks, which may or may not be enabled.
@@ -26,6 +28,8 @@
 	#Intensity of the FOV modification when using Pneumatic Leggings speed boost: 0.0 for no FOV modification, higher values zoom out more.  Note: non-zero values may cause FOV clashes with other mods.
 	#Range: 0.0 ~ 1.0
 	leggings_fov_factor = 0.0
+	#Should enchantment glint be shown on Pneumatic Armor pieces? Disable if you don't like the enchantment glint messing up your carefully chosen colour scheme...
+	show_enchant_glint = true
 	#Enable the Pneumatic Helmet Coordinate Tracker pathfinder
 	path_enabled = false
 	#True if the Pneumatic Helmet Coordinate Tracker pathfinder should draw lines, false for tiles.

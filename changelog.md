@@ -1,1 +1,2 @@
-- Updated compact machines
+- Updated all mods
+- Updated to recommended forge version
