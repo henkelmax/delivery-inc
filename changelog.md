@@ -1,2 +1,1 @@
-- Updated all mods
-- Updated to recommended forge version
+- Updated the manual
