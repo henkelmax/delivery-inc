@@ -1,1 +1,1 @@
-- Updated the manual
+- Fixed chest recipes with modded planks

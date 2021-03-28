@@ -524,3 +524,178 @@ phantomCrop.addDrop(<item:mysticalagriculture:fertilized_essence>, 0.01);
 craftingTable.addShaped("minecraft.phantom_membrane", <item:minecraft:phantom_membrane>, [
     [<item:mysticalagriculture:phantom_essence>, <item:mysticalagriculture:phantom_essence>, <item:mysticalagriculture:phantom_essence>]
 ]);
+
+# Chests
+craftingTable.addShaped("aspen_chest", <item:minecraft:chest>, [
+    [<item:byg:aspen_planks>, <item:byg:aspen_planks>, <item:byg:aspen_planks>],
+    [<item:byg:aspen_planks>, <item:minecraft:air>, <item:byg:aspen_planks>],
+    [<item:byg:aspen_planks>, <item:byg:aspen_planks>, <item:byg:aspen_planks>]
+]);
+
+craftingTable.addShaped("baobab_chest", <item:minecraft:chest>, [
+    [<item:byg:baobab_planks>, <item:byg:baobab_planks>, <item:byg:baobab_planks>],
+    [<item:byg:baobab_planks>, <item:minecraft:air>, <item:byg:baobab_planks>],
+    [<item:byg:baobab_planks>, <item:byg:baobab_planks>, <item:byg:baobab_planks>]
+]);
+
+craftingTable.addShaped("blue_enchanted_chest", <item:minecraft:chest>, [
+    [<item:byg:blue_enchanted_planks>, <item:byg:blue_enchanted_planks>, <item:byg:blue_enchanted_planks>],
+    [<item:byg:blue_enchanted_planks>, <item:minecraft:air>, <item:byg:blue_enchanted_planks>],
+    [<item:byg:blue_enchanted_planks>, <item:byg:blue_enchanted_planks>, <item:byg:blue_enchanted_planks>]
+]);
+
+craftingTable.addShaped("bulbis_chest", <item:minecraft:chest>, [
+    [<item:byg:bulbis_planks>, <item:byg:bulbis_planks>, <item:byg:bulbis_planks>],
+    [<item:byg:bulbis_planks>, <item:minecraft:air>, <item:byg:bulbis_planks>],
+    [<item:byg:bulbis_planks>, <item:byg:bulbis_planks>, <item:byg:bulbis_planks>]
+]);
+
+craftingTable.addShaped("cherry_chest", <item:minecraft:chest>, [
+    [<item:byg:cherry_planks>, <item:byg:cherry_planks>, <item:byg:cherry_planks>],
+    [<item:byg:cherry_planks>, <item:minecraft:air>, <item:byg:cherry_planks>],
+    [<item:byg:cherry_planks>, <item:byg:cherry_planks>, <item:byg:cherry_planks>]
+]);
+
+craftingTable.addShaped("cika_chest", <item:minecraft:chest>, [
+    [<item:byg:cika_planks>, <item:byg:cika_planks>, <item:byg:cika_planks>],
+    [<item:byg:cika_planks>, <item:minecraft:air>, <item:byg:cika_planks>],
+    [<item:byg:cika_planks>, <item:byg:cika_planks>, <item:byg:cika_planks>]
+]);
+
+craftingTable.addShaped("cypress_chest", <item:minecraft:chest>, [
+    [<item:byg:cypress_planks>, <item:byg:cypress_planks>, <item:byg:cypress_planks>],
+    [<item:byg:cypress_planks>, <item:minecraft:air>, <item:byg:cypress_planks>],
+    [<item:byg:cypress_planks>, <item:byg:cypress_planks>, <item:byg:cypress_planks>]
+]);
+
+craftingTable.addShaped("ebony_chest", <item:minecraft:chest>, [
+    [<item:byg:ebony_planks>, <item:byg:ebony_planks>, <item:byg:ebony_planks>],
+    [<item:byg:ebony_planks>, <item:minecraft:air>, <item:byg:ebony_planks>],
+    [<item:byg:ebony_planks>, <item:byg:ebony_planks>, <item:byg:ebony_planks>]
+]);
+
+craftingTable.addShaped("ether_chest", <item:minecraft:chest>, [
+    [<item:byg:ether_planks>, <item:byg:ether_planks>, <item:byg:ether_planks>],
+    [<item:byg:ether_planks>, <item:minecraft:air>, <item:byg:ether_planks>],
+    [<item:byg:ether_planks>, <item:byg:ether_planks>, <item:byg:ether_planks>]
+]);
+
+craftingTable.addShaped("fir_chest", <item:minecraft:chest>, [
+    [<item:byg:fir_planks>, <item:byg:fir_planks>, <item:byg:fir_planks>],
+    [<item:byg:fir_planks>, <item:minecraft:air>, <item:byg:fir_planks>],
+    [<item:byg:fir_planks>, <item:byg:fir_planks>, <item:byg:fir_planks>]
+]);
+
+craftingTable.addShaped("green_enchanted_chest", <item:minecraft:chest>, [
+    [<item:byg:green_enchanted_planks>, <item:byg:green_enchanted_planks>, <item:byg:green_enchanted_planks>],
+    [<item:byg:green_enchanted_planks>, <item:minecraft:air>, <item:byg:green_enchanted_planks>],
+    [<item:byg:green_enchanted_planks>, <item:byg:green_enchanted_planks>, <item:byg:green_enchanted_planks>]
+]);
+
+craftingTable.addShaped("holly_chest", <item:minecraft:chest>, [
+    [<item:byg:holly_planks>, <item:byg:holly_planks>, <item:byg:holly_planks>],
+    [<item:byg:holly_planks>, <item:minecraft:air>, <item:byg:holly_planks>],
+    [<item:byg:holly_planks>, <item:byg:holly_planks>, <item:byg:holly_planks>]
+]);
+
+craftingTable.addShaped("imparius_chest", <item:minecraft:chest>, [
+    [<item:byg:imparius_planks>, <item:byg:imparius_planks>, <item:byg:imparius_planks>],
+    [<item:byg:imparius_planks>, <item:minecraft:air>, <item:byg:imparius_planks>],
+    [<item:byg:imparius_planks>, <item:byg:imparius_planks>, <item:byg:imparius_planks>]
+]);
+
+craftingTable.addShaped("jacaranda_chest", <item:minecraft:chest>, [
+    [<item:byg:jacaranda_planks>, <item:byg:jacaranda_planks>, <item:byg:jacaranda_planks>],
+    [<item:byg:jacaranda_planks>, <item:minecraft:air>, <item:byg:jacaranda_planks>],
+    [<item:byg:jacaranda_planks>, <item:byg:jacaranda_planks>, <item:byg:jacaranda_planks>]
+]);
+
+craftingTable.addShaped("lament_chest", <item:minecraft:chest>, [
+    [<item:byg:lament_planks>, <item:byg:lament_planks>, <item:byg:lament_planks>],
+    [<item:byg:lament_planks>, <item:minecraft:air>, <item:byg:lament_planks>],
+    [<item:byg:lament_planks>, <item:byg:lament_planks>, <item:byg:lament_planks>]
+]);
+
+craftingTable.addShaped("mahogany_chest", <item:minecraft:chest>, [
+    [<item:byg:mahogany_planks>, <item:byg:mahogany_planks>, <item:byg:mahogany_planks>],
+    [<item:byg:mahogany_planks>, <item:minecraft:air>, <item:byg:mahogany_planks>],
+    [<item:byg:mahogany_planks>, <item:byg:mahogany_planks>, <item:byg:mahogany_planks>]
+]);
+
+craftingTable.addShaped("mangrove_chest", <item:minecraft:chest>, [
+    [<item:byg:mangrove_planks>, <item:byg:mangrove_planks>, <item:byg:mangrove_planks>],
+    [<item:byg:mangrove_planks>, <item:minecraft:air>, <item:byg:mangrove_planks>],
+    [<item:byg:mangrove_planks>, <item:byg:mangrove_planks>, <item:byg:mangrove_planks>]
+]);
+
+craftingTable.addShaped("maple_chest", <item:minecraft:chest>, [
+    [<item:byg:maple_planks>, <item:byg:maple_planks>, <item:byg:maple_planks>],
+    [<item:byg:maple_planks>, <item:minecraft:air>, <item:byg:maple_planks>],
+    [<item:byg:maple_planks>, <item:byg:maple_planks>, <item:byg:maple_planks>]
+]);
+
+craftingTable.addShaped("nightshade_chest", <item:minecraft:chest>, [
+    [<item:byg:nightshade_planks>, <item:byg:nightshade_planks>, <item:byg:nightshade_planks>],
+    [<item:byg:nightshade_planks>, <item:minecraft:air>, <item:byg:nightshade_planks>],
+    [<item:byg:nightshade_planks>, <item:byg:nightshade_planks>, <item:byg:nightshade_planks>]
+]);
+
+craftingTable.addShaped("palm_chest", <item:minecraft:chest>, [
+    [<item:byg:palm_planks>, <item:byg:palm_planks>, <item:byg:palm_planks>],
+    [<item:byg:palm_planks>, <item:minecraft:air>, <item:byg:palm_planks>],
+    [<item:byg:palm_planks>, <item:byg:palm_planks>, <item:byg:palm_planks>]
+]);
+
+craftingTable.addShaped("pine_chest", <item:minecraft:chest>, [
+    [<item:byg:pine_planks>, <item:byg:pine_planks>, <item:byg:pine_planks>],
+    [<item:byg:pine_planks>, <item:minecraft:air>, <item:byg:pine_planks>],
+    [<item:byg:pine_planks>, <item:byg:pine_planks>, <item:byg:pine_planks>]
+]);
+
+craftingTable.addShaped("rainbow_eucalyptus_chest", <item:minecraft:chest>, [
+    [<item:byg:rainbow_eucalyptus_planks>, <item:byg:rainbow_eucalyptus_planks>, <item:byg:rainbow_eucalyptus_planks>],
+    [<item:byg:rainbow_eucalyptus_planks>, <item:minecraft:air>, <item:byg:rainbow_eucalyptus_planks>],
+    [<item:byg:rainbow_eucalyptus_planks>, <item:byg:rainbow_eucalyptus_planks>, <item:byg:rainbow_eucalyptus_planks>]
+]);
+
+craftingTable.addShaped("redwood_chest", <item:minecraft:chest>, [
+    [<item:byg:redwood_planks>, <item:byg:redwood_planks>, <item:byg:redwood_planks>],
+    [<item:byg:redwood_planks>, <item:minecraft:air>, <item:byg:redwood_planks>],
+    [<item:byg:redwood_planks>, <item:byg:redwood_planks>, <item:byg:redwood_planks>]
+]);
+
+craftingTable.addShaped("skyris_chest", <item:minecraft:chest>, [
+    [<item:byg:skyris_planks>, <item:byg:skyris_planks>, <item:byg:skyris_planks>],
+    [<item:byg:skyris_planks>, <item:minecraft:air>, <item:byg:skyris_planks>],
+    [<item:byg:skyris_planks>, <item:byg:skyris_planks>, <item:byg:skyris_planks>]
+]);
+
+craftingTable.addShaped("willow_chest", <item:minecraft:chest>, [
+    [<item:byg:willow_planks>, <item:byg:willow_planks>, <item:byg:willow_planks>],
+    [<item:byg:willow_planks>, <item:minecraft:air>, <item:byg:willow_planks>],
+    [<item:byg:willow_planks>, <item:byg:willow_planks>, <item:byg:willow_planks>]
+]);
+
+craftingTable.addShaped("witch_hazel_chest", <item:minecraft:chest>, [
+    [<item:byg:witch_hazel_planks>, <item:byg:witch_hazel_planks>, <item:byg:witch_hazel_planks>],
+    [<item:byg:witch_hazel_planks>, <item:minecraft:air>, <item:byg:witch_hazel_planks>],
+    [<item:byg:witch_hazel_planks>, <item:byg:witch_hazel_planks>, <item:byg:witch_hazel_planks>]
+]);
+
+craftingTable.addShaped("zelkova_chest", <item:minecraft:chest>, [
+    [<item:byg:zelkova_planks>, <item:byg:zelkova_planks>, <item:byg:zelkova_planks>],
+    [<item:byg:zelkova_planks>, <item:minecraft:air>, <item:byg:zelkova_planks>],
+    [<item:byg:zelkova_planks>, <item:byg:zelkova_planks>, <item:byg:zelkova_planks>]
+]);
+
+craftingTable.addShaped("sythian_chest", <item:minecraft:chest>, [
+    [<item:byg:sythian_planks>, <item:byg:sythian_planks>, <item:byg:sythian_planks>],
+    [<item:byg:sythian_planks>, <item:minecraft:air>, <item:byg:sythian_planks>],
+    [<item:byg:sythian_planks>, <item:byg:sythian_planks>, <item:byg:sythian_planks>]
+]);
+
+craftingTable.addShaped("embur_chest", <item:minecraft:chest>, [
+    [<item:byg:embur_planks>, <item:byg:embur_planks>, <item:byg:embur_planks>],
+    [<item:byg:embur_planks>, <item:minecraft:air>, <item:byg:embur_planks>],
+    [<item:byg:embur_planks>, <item:byg:embur_planks>, <item:byg:embur_planks>]
+]);
