@@ -1,1 +1,3 @@
-- Fixed chest recipes with modded planks
+- Updated delivery questing
+- Updated camera mod
+- Updated easy villagers
