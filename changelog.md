@@ -1,3 +1,1 @@
-- Updated delivery questing
-- Updated camera mod
-- Updated easy villagers
+- Updated industrial foregoing
