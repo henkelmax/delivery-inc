@@ -27,5 +27,6 @@
   "forge:ingots/lead": "mekanism:ingot_lead",
   "forge:ingots/graphite": "null",
   "forge:ingots/uranium": "mekanism:ingot_uranium",
-  "forge:ingots/nickel": "thermal:nickel_ingot"
+  "forge:ingots/nickel": "thermal:nickel_ingot",
+  "forge:gems/apatite": "thermal:apatite"
 }

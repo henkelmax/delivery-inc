@@ -72,59 +72,51 @@ craftingTable.addShaped("infinity_upgrade", <item:pipez:infinity_upgrade>, [
     [<item:minecraft:nether_star>, <tag:items:forge:storage_blocks/diamond>, <item:minecraft:nether_star>]
 ]);
 
-craftingTable.removeByName("mekanism:basic_logistical_transporter");
+craftingTable.removeByName("mekanism:transmitter/universal_cable/basic");
+craftingTable.removeByName("mekanism:transmitter/universal_cable/advanced");
+craftingTable.removeByName("mekanism:transmitter/universal_cable/elite");
+craftingTable.removeByName("mekanism:transmitter/universal_cable/ultimate");
+
+craftingTable.removeByName("mekanism:transmitter/mechanical_pipe/basic");
+craftingTable.removeByName("mekanism:transmitter/mechanical_pipe/advanced");
+craftingTable.removeByName("mekanism:transmitter/mechanical_pipe/elite");
+craftingTable.removeByName("mekanism:transmitter/mechanical_pipe/ultimate");
+
+craftingTable.removeByName("mekanism:transmitter/pressurized_tube/basic");
+craftingTable.removeByName("mekanism:transmitter/pressurized_tube/advanced");
+craftingTable.removeByName("mekanism:transmitter/pressurized_tube/elite");
+craftingTable.removeByName("mekanism:transmitter/pressurized_tube/ultimate");
+
+craftingTable.removeByName("mekanism:transmitter/logistical_transporter/basic");
+craftingTable.removeByName("mekanism:transmitter/logistical_transporter/advanced");
+craftingTable.removeByName("mekanism:transmitter/logistical_transporter/elite");
+craftingTable.removeByName("mekanism:transmitter/logistical_transporter/ultimate");
+
 mods.jei.JEI.hideItem(<item:mekanism:basic_logistical_transporter>);
-
-craftingTable.removeByName("mekanism:advanced_logistical_transporter");
 mods.jei.JEI.hideItem(<item:mekanism:advanced_logistical_transporter>);
-
-craftingTable.removeByName("mekanism:elite_logistical_transporter");
 mods.jei.JEI.hideItem(<item:mekanism:elite_logistical_transporter>);
-
-craftingTable.removeByName("mekanism:ultimate_logistical_transporter");
 mods.jei.JEI.hideItem(<item:mekanism:ultimate_logistical_transporter>);
 
-craftingTable.removeByName("mekanism:restrictive_transporter");
-mods.jei.JEI.hideItem(<item:mekanism:restrictive_transporter>);
-
-craftingTable.removeByName("mekanism:diversion_transporter");
-mods.jei.JEI.hideItem(<item:mekanism:diversion_transporter>);
-
-craftingTable.removeByName("mekanism:basic_mechanical_pipe");
 mods.jei.JEI.hideItem(<item:mekanism:basic_mechanical_pipe>);
-
-craftingTable.removeByName("mekanism:advanced_mechanical_pipe");
 mods.jei.JEI.hideItem(<item:mekanism:advanced_mechanical_pipe>);
-
-craftingTable.removeByName("mekanism:elite_mechanical_pipe");
 mods.jei.JEI.hideItem(<item:mekanism:elite_mechanical_pipe>);
-
-craftingTable.removeByName("mekanism:ultimate_mechanical_pipe");
 mods.jei.JEI.hideItem(<item:mekanism:ultimate_mechanical_pipe>);
 
-craftingTable.removeByName("mekanism:basic_universal_cable");
 mods.jei.JEI.hideItem(<item:mekanism:basic_universal_cable>);
-
-craftingTable.removeByName("mekanism:advanced_universal_cable");
 mods.jei.JEI.hideItem(<item:mekanism:advanced_universal_cable>);
-
-craftingTable.removeByName("mekanism:elite_universal_cable");
 mods.jei.JEI.hideItem(<item:mekanism:elite_universal_cable>);
-
-craftingTable.removeByName("mekanism:ultimate_universal_cable");
 mods.jei.JEI.hideItem(<item:mekanism:ultimate_universal_cable>);
 
-craftingTable.removeByName("mekanism:basic_pressurized_tube");
 mods.jei.JEI.hideItem(<item:mekanism:basic_pressurized_tube>);
-
-craftingTable.removeByName("mekanism:advanced_pressurized_tube");
 mods.jei.JEI.hideItem(<item:mekanism:advanced_pressurized_tube>);
-
-craftingTable.removeByName("mekanism:elite_pressurized_tube");
 mods.jei.JEI.hideItem(<item:mekanism:elite_pressurized_tube>);
-
-craftingTable.removeByName("mekanism:ultimate_pressurized_tube");
 mods.jei.JEI.hideItem(<item:mekanism:ultimate_pressurized_tube>);
+
+craftingTable.removeByName("mekanism:transmitter/restrictive_transporter");
+craftingTable.removeByName("mekanism:transmitter/diversion_transporter");
+
+mods.jei.JEI.hideItem(<item:mekanism:restrictive_transporter>);
+mods.jei.JEI.hideItem(<item:mekanism:diversion_transporter>);
 
 # Computercraft
 
@@ -157,7 +149,6 @@ craftingTable.addShaped("pneumaticcraft.uv_light_box", <item:pneumaticcraft:uv_l
 mods.jei.JEI.hideItem(<item:rftoolsutility:matter_booster>);
 craftingTable.removeByName("rftoolsutility:matter_booster");
 mods.jei.JEI.hideItem(<item:rftoolsutility:destination_analyzer>);
-craftingTable.removeByName("rftoolsutility:destination_analyzer");
 mods.jei.JEI.hideItem(<item:rftoolsutility:matter_transmitter>);
 craftingTable.removeByName("rftoolsutility:matter_transmitter");
 mods.jei.JEI.hideItem(<item:rftoolsutility:matter_receiver>);
@@ -169,7 +160,6 @@ craftingTable.removeByName("rftoolsutility:charged_porter");
 mods.jei.JEI.hideItem(<item:rftoolsutility:advanced_charged_porter>);
 craftingTable.removeByName("rftoolsutility:advanced_charged_porter");
 mods.jei.JEI.hideItem(<item:rftoolsutility:teleport_probe>);
-craftingTable.removeByName("rftoolsutility:teleport_probe");
 mods.jei.JEI.hideItem(<item:rftoolsutility:simple_dialer>);
 craftingTable.removeByName("rftoolsutility:simple_dialer");
 
