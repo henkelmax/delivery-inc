@@ -899,3 +899,7 @@ craftingTable.addShaped("nether_gate", <item:prefab:item_nether_gate>, [
     [<item:compressium:obsidian_1>, <item:minecraft:flint_and_steel>, <item:compressium:obsidian_1>],
     [<item:compressium:stone_2>, <item:compressium:obsidian_1>, <item:compressium:stone_2>]
 ]);
+
+craftingTable.removeByName("jaopca:storage_blocks.to_storage_block.brick");
+craftingTable.removeByName("jaopca:storage_blocks.to_material.brick");
+mods.jei.JEI.hideItem(<item:jaopca:storage_blocks.brick>);
