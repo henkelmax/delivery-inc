@@ -689,3 +689,213 @@ craftingTable.addShaped("embur_chest", <item:minecraft:chest>, [
     [<item:byg:embur_planks>, <item:minecraft:air>, <item:byg:embur_planks>],
     [<item:byg:embur_planks>, <item:byg:embur_planks>, <item:byg:embur_planks>]
 ]);
+
+# Prefab
+
+craftingTable.removeByName("prefab:double_compressed_stone_to_compressed_stone");
+craftingTable.removeByName("prefab:compressed_stone");
+craftingTable.removeByName("prefab:double_compressed_stone_from_compressed_stone");
+craftingTable.removeByName("prefab:triple_compressed_stone_to_double_compressed_stone");
+craftingTable.removeByName("prefab:triple_compressed_stone_from_double_compressed_stone");
+mods.jei.JEI.hideItem(<item:prefab:block_compressed_stone>);
+mods.jei.JEI.hideItem(<item:prefab:block_double_compressed_stone>);
+mods.jei.JEI.hideItem(<item:prefab:block_triple_compressed_stone>);
+
+craftingTable.removeByName("prefab:compressed_glowstone_from_glowstone");
+craftingTable.removeByName("prefab:double_compressed_glowstone_to_compressed_glowstone");
+craftingTable.removeByName("prefab:double_compressed_glowstone_from_compressed_glowstone");
+mods.jei.JEI.hideItem(<item:prefab:block_compressed_glowstone>);
+mods.jei.JEI.hideItem(<item:prefab:block_double_compressed_glowstone>);
+
+craftingTable.removeByName("prefab:double_compressed_dirt_to_compressed_dirt");
+craftingTable.removeByName("prefab:compressed_dirt_from_dirt");
+craftingTable.removeByName("prefab:double_compressed_dirt_from_compressed_dirt");
+mods.jei.JEI.hideItem(<item:prefab:block_compressed_dirt>);
+mods.jei.JEI.hideItem(<item:prefab:block_double_compressed_dirt>);
+
+craftingTable.removeByName("prefab:compressed_obsidian_from_double_compressed_obsidian");
+craftingTable.removeByName("prefab:compressed_obsidian");
+craftingTable.removeByName("prefab:double_compressed_obsidian");
+mods.jei.JEI.hideItem(<item:prefab:block_compressed_obsidian>);
+mods.jei.JEI.hideItem(<item:prefab:block_double_compressed_obsidian>);
+
+craftingTable.removeByName("prefab:starting_house");
+craftingTable.addShaped("item_start_house", <item:prefab:item_start_house>, [
+    [<item:minecraft:crafting_table>, <item:minecraft:clock>, <item:minecraft:furnace>],
+    [<item:compressium:stone_1>, <tag:items:minecraft:beds>, <item:compressium:stone_1>],
+    [<item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>]
+]);
+
+craftingTable.removeByName("prefab:warehouse");
+craftingTable.removeByName("prefab:warehouse_with_lanterns");
+craftingTable.addShaped("warehouse", <item:prefab:item_warehouse>, [
+    [<item:compressium:stone_2>, <item:minecraft:air>, <item:compressium:stone_2>],
+    [<item:compressium:stone_2>, <item:prefab:item_compressed_chest>, <item:compressium:stone_2>],
+    [<item:prefab:item_coil_of_lanterns>, <item:compressium:stone_3>, <item:prefab:item_coil_of_lanterns>]
+]);
+
+craftingTable.removeByName("prefab:chicken_coop");
+craftingTable.addShaped("chicken_coop", <item:prefab:item_chicken_coop>, [
+    [<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>],
+    [<tag:items:minecraft:logs>, <tag:items:forge:eggs>, <tag:items:minecraft:logs>],
+    [<item:compressium:dirt_1>, <item:minecraft:hay_block>, <item:compressium:dirt_1>]
+]);
+
+craftingTable.removeByName("prefab:produce_farm");
+craftingTable.removeByName("prefab:produce_farm_with_lanterns");
+craftingTable.addShaped("produce_farm", <item:prefab:item_produce_farm>, [
+    [<item:prefab:item_pallet_of_bricks>, <item:compressium:dirt_2>, <item:prefab:item_pallet_of_bricks>],
+    [<item:minecraft:water_bucket>, <item:prefab:item_coil_of_lanterns>, <item:minecraft:water_bucket>],
+    [<item:prefab:item_pallet_of_bricks>, <item:compressium:dirt_2>, <item:prefab:item_pallet_of_bricks>]
+]);
+
+craftingTable.removeByName("prefab:tree_farm");
+craftingTable.removeByName("prefab:tree_farm_with_lanterns");
+craftingTable.addShaped("tree_farm", <item:prefab:item_tree_farm>, [
+    [<item:prefab:item_pallet_of_bricks>, <item:compressium:dirt_2>, <item:prefab:item_pallet_of_bricks>],
+    [<item:minecraft:flower_pot>, <item:prefab:item_coil_of_lanterns>, <item:minecraft:flower_pot>],
+    [<item:prefab:item_pallet_of_bricks>, <item:compressium:dirt_2>, <item:prefab:item_pallet_of_bricks>]
+]);
+
+craftingTable.removeByName("prefab:fish_farm");
+craftingTable.addShaped("fish_farm", <item:prefab:item_fish_pond>, [
+    [<item:minecraft:air>, <item:minecraft:fishing_rod>, <item:minecraft:air>],
+    [<item:minecraft:water_bucket>, <item:compressium:dirt_2>, <item:minecraft:water_bucket>],
+    [<item:compressium:dirt_2>, <tag:items:minecraft:fishes>, <item:compressium:dirt_2>]
+]);
+
+craftingTable.removeByName("prefab:advanced_warehouse");
+craftingTable.removeByName("prefab:advanced_warehouse_with_lanterns");
+craftingTable.addShaped("advanced_warehouse", <item:prefab:item_advanced_warehouse>, [
+    [<item:compressium:stone_2>, <item:prefab:item_warehouse_upgrade>, <item:compressium:stone_2>],
+    [<item:compressium:stone_2>, <item:prefab:item_warehouse>, <item:compressium:stone_2>],
+    [<item:compressium:stone_2>, <item:compressium:stone_2>, <item:compressium:stone_2>]
+]);
+
+craftingTable.removeByName("prefab:monster_masher");
+craftingTable.addShaped("monster_masher", <item:prefab:item_monster_masher>, [
+    [<item:minecraft:skeleton_skull>, <tag:items:forge:storage_blocks/redstone>, <item:minecraft:zombie_head>],
+    [<item:minecraft:iron_bars>, <item:prefab:item_compressed_chest>, <item:minecraft:iron_bars>],
+    [<item:compressium:stone_2>, <item:compressium:stone_2>, <item:compressium:stone_2>]
+]);
+
+craftingTable.removeByName("prefab:instant_bridge");
+craftingTable.addShaped("instant_bridge", <item:prefab:item_instant_bridge>, [
+    [<item:minecraft:torch>, <item:compressium:stone_2>, <item:minecraft:torch>],
+    [<item:minecraft:torch>, <item:compressium:stone_2>, <item:minecraft:torch>],
+    [<item:minecraft:torch>, <item:compressium:stone_2>, <item:minecraft:torch>]
+]);
+
+craftingTable.removeByName("prefab:structure_part");
+craftingTable.addShaped("structure_part", <item:prefab:item_structure_part>, [
+    [<tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>, <tag:items:forge:cobblestone>],
+    [<item:compressium:stone_1>, <item:compressium:stone_1>, <tag:items:forge:cobblestone>],
+    [<item:compressium:stone_2>, <item:compressium:stone_1>, <tag:items:forge:cobblestone>]
+]);
+
+craftingTable.removeByName("prefab:villager_houses");
+craftingTable.addShaped("villager_houses", <item:prefab:item_villager_houses>, [
+    [<item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>],
+    [<item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>],
+    [<item:compressium:stone_1>, <item:compressium:stone_1>, <item:compressium:stone_1>]
+]);
+
+craftingTable.removeByName("prefab:barn");
+craftingTable.addShaped("barn", <item:prefab:item_barn>, [
+    [<item:prefab:item_pallet_of_bricks>, <item:minecraft:torch>, <item:prefab:item_pallet_of_bricks>],
+    [<item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>],
+    [<item:prefab:item_bundle_of_timber>, <item:compressium:dirt_1>, <item:prefab:item_bundle_of_timber>]
+]);
+
+craftingTable.removeByName("prefab:advanced_horse_stable");
+
+craftingTable.removeByName("prefab:machinery_tower");
+craftingTable.addShaped("machinery_tower", <item:prefab:item_machinery_tower>, [
+    [<item:minecraft:powered_rail>, <item:minecraft:powered_rail>, <item:minecraft:powered_rail>],
+    [<item:minecraft:air>, <item:prefab:item_string_of_lanterns>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:compressium:stone_3>, <item:minecraft:air>]
+]);
+
+craftingTable.removeByName("prefab:defense_bunker");
+craftingTable.addShaped("defense_bunker", <item:prefab:item_defense_bunker>, [
+    [<tag:items:forge:storage_blocks/iron>, <item:prefab:item_coil_of_lanterns>, <tag:items:forge:storage_blocks/iron>],
+    [<item:compressium:stone_3>, <item:compressium:obsidian_2>, <item:compressium:stone_3>],
+    [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>]
+]);
+
+craftingTable.removeByName("prefab:mineshaft_entrance");
+craftingTable.addShaped("mineshaft_entrance", <item:prefab:item_mineshaft_entrance>, [
+    [<item:minecraft:iron_pickaxe>, <item:prefab:item_bundle_of_timber>, <item:minecraft:iron_pickaxe>],
+    [<item:compressium:stone_1>, <tag:items:minecraft:beds>, <item:compressium:stone_1>],
+    [<item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>, <item:prefab:item_bundle_of_timber>]
+]);
+
+craftingTable.removeByName("prefab:ender_gateway");
+craftingTable.addShaped("ender_gateway", <item:prefab:item_ender_gateway>, [
+    [<item:minecraft:prismarine>, <item:minecraft:quartz_block>, <item:minecraft:prismarine>],
+    [<item:minecraft:quartz_block>, <item:compressium:obsidian_2>, <item:minecraft:quartz_block>],
+    [<item:minecraft:prismarine>, <item:compressium:stone_3>, <item:minecraft:prismarine>]
+]);
+
+craftingTable.removeByName("prefab:aqua_base");
+craftingTable.addShaped("aqua_base", <item:prefab:item_aqua_base>, [
+    [<tag:items:forge:glass>, <tag:items:forge:glass>, <tag:items:forge:glass>],
+    [<item:compressium:stone_1>, <item:minecraft:sea_lantern>, <item:compressium:stone_1>],
+    [<item:compressium:stone_1>, <item:prefab:item_coil_of_lanterns>, <item:compressium:stone_1>]
+]);
+
+craftingTable.removeByName("prefab:grassy_plains");
+craftingTable.addShaped("grassy_plains", <item:prefab:item_grassy_plain>, [
+    [<item:minecraft:grass>, <item:minecraft:grass>, <item:minecraft:grass>],
+    [<item:compressium:dirt_1>, <item:compressium:dirt_1>, <item:compressium:dirt_1>],
+    [<item:compressium:dirt_2>, <item:compressium:dirt_2>, <item:compressium:dirt_2>]
+]);
+
+craftingTable.removeByName("prefab:green_house");
+craftingTable.addShaped("green_house", <item:prefab:item_green_house>, [
+    [<item:compressium:stone_2>, <tag:items:forge:glass_panes>, <item:compressium:stone_2>],
+    [<item:compressium:stone_2>, <item:minecraft:water_bucket>, <item:compressium:stone_2>],
+    [<item:prefab:item_string_of_lanterns>, <item:compressium:dirt_2>, <item:prefab:item_string_of_lanterns>]
+]);
+
+craftingTable.removeByName("prefab:watch_tower");
+craftingTable.addShaped("watch_tower", <item:prefab:item_watch_tower>, [
+    [<item:compressium:stone_2>, <item:compressium:stone_2>, <item:compressium:stone_2>],
+    [<item:minecraft:air>, <item:compressium:stone_2>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:compressium:stone_1>, <item:minecraft:air>]
+]);
+
+craftingTable.removeByName("prefab:jail");
+craftingTable.addShaped("jail", <item:prefab:item_jail>, [
+    [<item:minecraft:iron_bars>, <item:minecraft:iron_bars>, <item:minecraft:iron_bars>],
+    [<item:minecraft:iron_bars>, <item:compressium:stone_3>, <item:minecraft:iron_bars>],
+    [<item:compressium:dirt_2>, <item:compressium:stone_2>, <item:compressium:dirt_2>]
+]);
+
+craftingTable.removeByName("prefab:ski_lodge");
+craftingTable.addShaped("ski_lodge", <item:prefab:item_ski_lodge>, [
+    [<item:minecraft:snow_block>, <item:prefab:item_bundle_of_timber>, <item:minecraft:snow_block>],
+    [<item:prefab:item_bundle_of_timber>, <item:minecraft:blue_ice>, <item:prefab:item_bundle_of_timber>],
+    [<item:compressium:dirt_2>, <item:compressium:stone_3>, <item:compressium:dirt_2>]
+]);
+
+craftingTable.removeByName("prefab:wind_mill");
+craftingTable.addShaped("wind_mill", <item:prefab:item_wind_mill>, [
+    [<item:minecraft:air>, <item:prefab:item_bundle_of_timber>, <item:minecraft:air>],
+    [<item:prefab:item_bundle_of_timber>, <item:compressium:stone_3>, <item:prefab:item_bundle_of_timber>],
+    [<item:compressium:dirt_2>, <item:prefab:item_bundle_of_timber>, <item:minecraft:hay_block>]
+]);
+
+craftingTable.removeByName("prefab:town_hall");
+craftingTable.addShaped("town_hall", <item:prefab:item_town_hall>, [
+    [<item:compressium:stone_2>, <item:prefab:item_ton_of_timber>, <item:compressium:stone_2>],
+    [<item:prefab:item_coil_of_lanterns>, <item:prefab:item_heap_of_timber>, <item:prefab:item_coil_of_lanterns>],
+    [<item:compressium:dirt_2>, <item:minecraft:air>, <item:minecraft:hay_block>]
+]);
+
+craftingTable.removeByName("prefab:nether_gate");
+craftingTable.addShaped("nether_gate", <item:prefab:item_nether_gate>, [
+    [<item:compressium:stone_2>, <item:compressium:obsidian_1>, <item:compressium:stone_2>],
+    [<item:compressium:obsidian_1>, <item:minecraft:flint_and_steel>, <item:compressium:obsidian_1>],
+    [<item:compressium:stone_2>, <item:compressium:obsidian_1>, <item:compressium:stone_2>]
+]);

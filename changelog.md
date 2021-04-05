@@ -1,2 +1,3 @@
-- Added prefab
-- Added morph o tool
+- Added controlling
+- Updated easy villagers
+- Fixed prefab recipe conflicts
