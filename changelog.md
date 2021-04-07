@@ -1,1 +1,1 @@
-- Fixed prefab recipe conflicts
+- Added "Rent a Server" button
