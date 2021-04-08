@@ -1,3 +1,1 @@
-- Added "Rent a Server" button
-- Added OpenBlocks Elevator
-- Updated Corpse Mod
+- Re-added mods button
