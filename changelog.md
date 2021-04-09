@@ -1,1 +1,1 @@
-- Re-added mods button
+- Fixed group passwords resetting to the group name
