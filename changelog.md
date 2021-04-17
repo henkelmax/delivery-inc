@@ -1,1 +1,3 @@
-- Added group password commands
+- Updated delivery questing
+- Updated resourceful bees
+- Updated easy villagers
