@@ -1,3 +1,1 @@
 - Updated delivery questing
-- Updated resourceful bees
-- Updated easy villagers
