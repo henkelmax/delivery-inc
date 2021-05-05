@@ -1,1 +1,2 @@
 - Updated delivery questing
+- Fixed default mouse sensitivity
