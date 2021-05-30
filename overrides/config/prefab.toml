@@ -51,6 +51,8 @@
 		"Watch Tower" = true
 		#Determines if the recipe(s) associated with the Fish Farm are enabled.
 		"Fish Farm" = true
+		#Determines if the recipe(s) associated with the Sugar Cane Farm are enabled.
+		"Sugar Cane Farm" = true
 		#Determines if the recipe(s) associated with the Pile of Bricks are enabled.
 		"Pile of Bricks" = true
 		#Determines if the recipe(s) associated with the Ton of Timber are enabled.

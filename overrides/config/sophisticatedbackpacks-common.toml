@@ -4,7 +4,7 @@
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
 	#Disable / enable any items here (disables their recipes)
-	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_magnet_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "crafting_upgrade:true", "auto_smelting_upgrade:true", "smelting_upgrade:true", "upgrade_base:true", "magnet_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "inception_upgrade:true", "pickup_upgrade:true", "filter_upgrade:true", "gold_backpack:true", "feeding_upgrade:true", "jukebox_upgrade:true", "stack_upgrade_tier_4:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "stonecutter_upgrade:true"]
+	enabledItems = ["void_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "compacting_upgrade:true", "advanced_restock_upgrade:true", "advanced_magnet_upgrade:true", "advanced_filter_upgrade:true", "diamond_backpack:true", "crafting_upgrade:true", "auto_smelting_upgrade:true", "smelting_upgrade:true", "upgrade_base:true", "magnet_upgrade:true", "refill_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "advanced_compacting_upgrade:true", "backpack:true", "inception_upgrade:true", "pickup_upgrade:true", "filter_upgrade:true", "gold_backpack:true", "feeding_upgrade:true", "jukebox_upgrade:true", "stack_upgrade_tier_4:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_1:true", "stonecutter_upgrade:true", "advanced_tool_swapper_upgrade:true", "tool_swapper_upgrade:true"]
 	#Shift clicking will first move the stack into open tab and only then to player's inventory or to backpack (based on where shift clicking from backpack or from player's inventory).
 	#Setting this to false will move stacks to backpack/inventory first.
 	shiftClickIntoOpenTabFirst = true
@@ -92,6 +92,12 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
+
+	#Tool Swapper Upgrade Settings
+	[common.toolSwapperUpgrade]
+		#Number of tool filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
 
 	#Inception Upgrade Settings
 	[common.inceptionUpgrade]

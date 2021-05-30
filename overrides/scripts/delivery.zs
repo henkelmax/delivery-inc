@@ -1,5 +1,3 @@
-# TODO remove digital miner
-
 # Waystones
 
 craftingTable.removeByName("waystones:warp_stone");
@@ -20,7 +18,64 @@ craftingTable.removeByName("waystones:sandy_waystone");
 
 craftingTable.addShapeless("sandy_waystone", <item:waystones:sandy_waystone>, [<item:waystones:waystone>, <item:minecraft:chiseled_sandstone>, <item:minecraft:chiseled_sandstone>, <item:minecraft:chiseled_sandstone>]);
 
-# TODO add waystone recipe
+craftingTable.removeByName("waystones:sharestone");
+mods.jei.JEI.hideItem(<item:waystones:sharestone>);
+
+craftingTable.removeByName("waystones:warp_plate");
+mods.jei.JEI.hideItem(<item:waystones:warp_plate>);
+
+craftingTable.removeByName("waystones:white_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:white_sharestone>);
+
+craftingTable.removeByName("waystones:orange_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:orange_sharestone>);
+
+craftingTable.removeByName("waystones:magenta_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:magenta_sharestone>);
+
+craftingTable.removeByName("waystones:light_blue_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:light_blue_sharestone>);
+
+craftingTable.removeByName("waystones:yellow_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:yellow_sharestone>);
+
+craftingTable.removeByName("waystones:lime_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:lime_sharestone>);
+
+craftingTable.removeByName("waystones:pink_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:pink_sharestone>);
+
+craftingTable.removeByName("waystones:gray_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:gray_sharestone>);
+
+craftingTable.removeByName("waystones:light_gray_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:light_gray_sharestone>);
+
+craftingTable.removeByName("waystones:cyan_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:cyan_sharestone>);
+
+craftingTable.removeByName("waystones:purple_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:purple_sharestone>);
+
+craftingTable.removeByName("waystones:blue_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:blue_sharestone>);
+
+craftingTable.removeByName("waystones:brown_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:brown_sharestone>);
+
+craftingTable.removeByName("waystones:green_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:green_sharestone>);
+
+craftingTable.removeByName("waystones:red_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:red_sharestone>);
+
+craftingTable.removeByName("waystones:black_sharestone");
+mods.jei.JEI.hideItem(<item:waystones:black_sharestone>);
+
+craftingTable.removeByName("waystones:warp_dust");
+mods.jei.JEI.hideItem(<item:waystones:warp_dust>);
+
+mods.jei.JEI.hideItem(<item:waystones:attuned_shard>);
 
 # The One Probe
 
@@ -122,10 +177,6 @@ mods.jei.JEI.hideItem(<item:mekanism:diversion_transporter>);
 
 craftingTable.removeByName("computercraft:computer_command");
 mods.jei.JEI.hideItem(<item:computercraft:computer_command>);
-
-# Industrial Foregoing
-
-mods.jei.JEI.hideItem(<item:industrialforegoing:mob_essence_tool>);
 
 # Pneumaticcraft
 
@@ -898,6 +949,20 @@ craftingTable.addShaped("nether_gate", <item:prefab:item_nether_gate>, [
     [<item:compressium:stone_2>, <item:compressium:obsidian_1>, <item:compressium:stone_2>],
     [<item:compressium:obsidian_1>, <item:minecraft:flint_and_steel>, <item:compressium:obsidian_1>],
     [<item:compressium:stone_2>, <item:compressium:obsidian_1>, <item:compressium:stone_2>]
+]);
+
+craftingTable.removeByName("prefab:sugar_cane_farm");
+craftingTable.addShaped("sugar_cane_farm", <item:prefab:item_sugar_cane_farm>, [
+    [<tag:items:forge:storage_blocks/iron>, <item:prefab:item_coil_of_lanterns>, <tag:items:forge:storage_blocks/iron>],
+    [<item:minecraft:quartz_block>, <item:minecraft:sugar_cane>, <item:minecraft:quartz_block>],
+    [<tag:items:forge:storage_blocks/redstone>, <item:compressium:stone_3>, <tag:items:forge:storage_blocks/redstone>]
+]);
+
+craftingTable.removeByName("prefab:advanced_aqua_base");
+craftingTable.addShaped("advanced_aqua_base", <item:prefab:item_advanced_aqua_base>, [
+    [<tag:items:forge:glass>, <tag:items:forge:glass>, <tag:items:forge:glass>],
+    [<item:minecraft:conduit>, <item:minecraft:sea_lantern>, <item:minecraft:conduit>],
+    [<item:compressium:stone_3>, <item:prefab:item_coil_of_lanterns>, <item:compressium:stone_3>]
 ]);
 
 craftingTable.removeByName("jaopca:storage_blocks.to_storage_block.brick");

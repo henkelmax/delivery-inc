@@ -14,6 +14,11 @@
 	#Note: If false, bees will get stuck just below y-0 and not move. **May not be useful with new AI**
 	beeDiesInVoid = true
 	#
+	#This is an experimental setting. Using this setting means bees will need to be told by the player which flower and hive to use.
+	#Bees will not scan surroundings for flowers or hives and will instead go to their designated spot until changed.
+	#WARNING: For now, this will prevent bees from having their wander goal attached which effectively makes them dumb (seriously, they'll just hover in one spot), however it would also significantly improve performance until pathfinding can be optimized.
+	use_experimental_manual_mode = false
+	#
 	#This value scales the child size for all Resource Bees.
 	#Range: 1.0 ~ 2.0
 	global_child_size_modifier = 1.0
@@ -165,6 +170,11 @@
 
 ["General Options"]
 	#
+	#Multiplier to the amount of ticks needed to process honey into honey blocks in the congealer.
+	#This value is multiplying the honeyProcessTime.
+	#Range: 1 ~ 16
+	congealerTimeMultiplier = 4
+	#
 	#Sets the max durability for the smoker
 	#Range: 100 ~ 5000
 	smokerDurability = 1000
@@ -177,12 +187,20 @@
 	#At a later time we will look into either combining with the Forge system or making the Forge system data pack capable.
 	useForgeBiomeDictionaries = true
 	#
+	#Amount of time in ticks required to finish processing a honey bottle.
+	#Range: 0 ~ 2400
+	honeyProcessTime = 5
+	#
 	#Set to true if you want easter egg bees to generate (WIP) [true/false]
 	#The only easter egg bee currently available is the Oreo bee
 	enableEasterEggBees = false
 	#
 	#Set to true to hide certain data in the Beepedia until the player has unlocked the bee. [true/false]
 	beepediaHideLocked = false
+	#
+	#Amount of honey Honey Pipes can transfer per tick.
+	#Range: 10 ~ 16000
+	maxHoneyPipeFlow = 250
 	#
 	#Set this to false when you want to overwrite the default bee files. [true/false]
 	#This should be run at least once for initial generation.

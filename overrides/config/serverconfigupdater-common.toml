@@ -4,7 +4,7 @@
 	toDelete = "antimobgriefing,buildinggadgets,camera,chiselsandbits,cobblefordays,cofh_core,compactmachines,computercraft,corpse,curios,delivery,easy_villagers,extradisks,forge,ftbchunks,mcjtylib,morevanillalib,mysticalagriculture,pipez,refinedstorageaddons,refinedstorage,rftoolsbase,rftoolsbuilder,rftoolsutility,serverconfigupdater,sleeping_bags,storage4computercraft,thermal,prefab"
 	#Version Number. VersionNumbers are simple Integers. Use a number larger than the last version.
 	#Range: > 0
-	newVersion = 0
+	newVersion = 1
 
 ["File Deleter"]
 	#By default Folders are only deleted if they are empty. Set to true to change that.
