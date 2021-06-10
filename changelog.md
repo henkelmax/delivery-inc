@@ -1,1 +1,1 @@
-- Updated all mods
+- Fixed some quest rewards not working

@@ -614,7 +614,19 @@
       "rewards": [
         {
           "item": "minecraft:white_concrete",
-          "amount": 256
+          "amount": 64
+        },
+        {
+          "item": "minecraft:white_concrete",
+          "amount": 64
+        },
+        {
+          "item": "minecraft:white_concrete",
+          "amount": 64
+        },
+        {
+          "item": "minecraft:white_concrete",
+          "amount": 64
         }
       ]
     },
@@ -1102,7 +1114,19 @@
       "rewards": [
         {
           "item": "minecraft:bread",
-          "amount": 256
+          "amount": 64
+        },
+        {
+          "item": "minecraft:bread",
+          "amount": 64
+        },
+        {
+          "item": "minecraft:bread",
+          "amount": 64
+        },
+        {
+          "item": "minecraft:bread",
+          "amount": 64
         }
       ]
     },
