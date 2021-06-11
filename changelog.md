@@ -1,1 +1,1 @@
-- Fixed some quest rewards not working
+- Fix honeycomb crafting exploit

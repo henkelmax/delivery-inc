@@ -341,7 +341,7 @@ craftingTable.addShaped("minecraft.honeycomb_block", <item:minecraft:honeycomb_b
     [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>]
 ]);
 
-craftingTable.addShapeless("minecraft.honeycomb", <item:minecraft:honeycomb>*9, [<item:minecraft:honeycomb_block>]);
+craftingTable.addShapeless("minecraft.honeycomb", <item:minecraft:honeycomb>*4, [<item:minecraft:honeycomb_block>]);
 
 # Easy Villagers
 
