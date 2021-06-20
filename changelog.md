@@ -1,1 +1,2 @@
 - Removed obsidian shard recipe
+- Updated prefab

@@ -2,9 +2,6 @@
 [general]
 	#Determines if the loft starter house is enabled. This house contains Nether materials in it's construction. Server configuration overrides client.
 	"Enable Loft House" = false
-	#Determines the maximum size the starting house can be generated as. Server configuration overrides client.
-	#Range: 5 ~ 16
-	"Maximum Starting House Size" = 16
 	#Determines if the mineshaft chest is included when building mineshafts for various structures.
 	"Include Mineshaft Chest" = true
 	#Determines if the Preview buttons in structure GUIs and other structure previews functions are enabled. Client side only.
@@ -113,6 +110,8 @@
 		"Aqua Base" = true
 		#Determines if the recipe(s) associated with the Advanced Chicken Coop are enabled.
 		"Advanced Chicken Coop" = true
+		#Determines if the recipe(s) associated with the Workshop are enabled.
+		Workshop = true
 		#Determines if the recipe(s) associated with the Glass Stairs are enabled.
 		"Glass Stairs" = true
 		#Determines if the recipe(s) associated with the Diorite Slabs are enabled.
