@@ -341,7 +341,7 @@ craftingTable.addShaped("minecraft.honeycomb_block", <item:minecraft:honeycomb_b
     [<item:minecraft:honeycomb>, <item:minecraft:honeycomb>, <item:minecraft:honeycomb>]
 ]);
 
-craftingTable.addShapeless("minecraft.honeycomb", <item:minecraft:honeycomb>*4, [<item:minecraft:honeycomb_block>]);
+craftingTable.addShapeless("minecraft.honeycomb", <item:minecraft:honeycomb>*9, [<item:minecraft:honeycomb_block>]);
 
 # Easy Villagers
 
@@ -968,3 +968,8 @@ craftingTable.addShaped("advanced_aqua_base", <item:prefab:item_advanced_aqua_ba
 craftingTable.removeByName("jaopca:storage_blocks.to_storage_block.brick");
 craftingTable.removeByName("jaopca:storage_blocks.to_material.brick");
 mods.jei.JEI.hideItem(<item:jaopca:storage_blocks.brick>);
+
+# MoreVanillaLib
+
+craftingTable.removeByName("morevanillalib:obsidian_shard");
+mods.jei.JEI.hideItem(<item:morevanillalib:obsidian_shard>);

@@ -1,1 +1,1 @@
-- Fix honeycomb crafting exploit
+- Removed obsidian shard recipe
