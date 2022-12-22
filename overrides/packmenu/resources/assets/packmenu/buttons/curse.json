@@ -1,9 +1,0 @@
-{
-	"x": -100,
-	"y": 48,
-	"width": 98,
-	"height": 20,
-	"langKey": "packmenu.open_curse",
-	"action": "OPEN_URL",
-	"data": "https://www.curseforge.com/minecraft/modpacks/delivery-inc"
-}
