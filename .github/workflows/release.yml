@@ -22,57 +22,16 @@ jobs:
         run: sed -i 's/%MODPACK_VERSION%/${{ steps.get_release.outputs.tag_name }}/g' manifest.json
       - name: Zip Modpack
         run: zip -r modpack.zip *
-      - name: Build Server
-        uses: henkelmax/build-modpack-server-action@v1.0.0
-        with:
-          modpack-path: ./modpack.zip
-          output-path: ./modpack-server.zip
-      - name: Read Changelog
-        id: read_changelog
-        uses: juliangruber/read-file-action@v1
-        with:
-          path: ./changelog.md
-      - name: Get Release Type
-        id: get_curseforge_release_type
-        run: |
-          RELEASE_TYPE=$(echo ${{ steps.get_release.outputs.name }} | grep -oE '\[(.*)\]' | sed 's/[][]//g')
-          echo ::set-output name=release_type::$RELEASE_TYPE
       - name: Copy files for CurseForge upload
         run: |
           mkdir -p curse_upload
-          cp ./modpack.zip './curse_upload/DeliveryInc-${{ steps.get_release.outputs.tag_name }}.zip'
-          cp ./modpack-server.zip './curse_upload/DeliveryInc-Server-${{ steps.get_release.outputs.tag_name }}.zip'
+          cp ./modpack.zip './curse_upload/Aur-${{ steps.get_release.outputs.tag_name }}.zip'
       - name: Upload to CurseForge
         uses: henkelmax/upload-curseforge-modpack-action@v1.0.0
         with:
           api-token: ${{ secrets.API_TOKEN }}
-          project-id: '445975'
-          modpack-path: './curse_upload/DeliveryInc-${{ steps.get_release.outputs.tag_name }}.zip'
-          modpack-server-path: './curse_upload/DeliveryInc-Server-${{ steps.get_release.outputs.tag_name }}.zip'
-          changelog: ${{ steps.read_changelog.outputs.content }}
-          changelog-format: 'markdown'
+          project-id: '766928'
+          modpack-path: './curse_upload/Aur-${{ steps.get_release.outputs.tag_name }}.zip'
           game-version: '1.16.5'
-          display-name: 'Delivery Inc. ${{ steps.get_release.outputs.tag_name }}'
-          server-display-name: 'Delivery Inc. Server ${{ steps.get_release.outputs.tag_name }}'
+          display-name: 'Aur. ${{ steps.get_release.outputs.tag_name }}'
           release-type: ${{ steps.get_curseforge_release_type.outputs.release_type }}
-      - name: Upload Modpack
-        uses: actions/upload-release-asset@v1.0.2
-        with:
-          upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: ./modpack.zip
-          asset_name: 'Delivery-Inc-${{ steps.get_release.outputs.tag_name }}.zip'
-          asset_content_type: application/zip
-      - name: Upload Server
-        uses: actions/upload-release-asset@v1.0.2
-        with:
-          upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: ./modpack-server.zip
-          asset_name: 'Delivery-Inc-Server-${{ steps.get_release.outputs.tag_name }}.zip'
-          asset_content_type: application/zip
-      - name: Send Announcement
-        uses: henkelmax/delivery-inc-discord-announcer-action@v1.0.0
-        with:
-          bot-token: ${{ secrets.DISCORD_BOT_TOKEN }}
-          channel-id: '817727363781230592'
-          version: ${{ steps.get_release.outputs.tag_name }}
-          changelog-path: ./changelog.md
